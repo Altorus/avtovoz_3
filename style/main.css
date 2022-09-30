@@ -1,0 +1,162 @@
+.fl--logo-container img {
+    max-width: 156px;
+}
+
+.sidebar-logotype {
+    max-width: 35px;
+}
+
+.fl--header .nav-menu li a {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fl-mega-menu > ul > li .sub-nav > ul.sub-menu-wide > li > a {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.fl--header .nav-menu li .sub-menu li a, .fl--header .nav-menu li .sub-menu li .sub-sub-menu {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.fl--mobile-menu li a {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.fl--mobile-menu li .sub-menu li a {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info-category a, .fl-single-post-header .post-holder--info .post-info .left-post-top-content .category-post a {
+    color: #222222 !important;
+}
+
+.fl--header, .fl--footer .fl-social-content-footer .fl-social--inner .fl_footer_social_icon:hover, .sidebar:not(.cars-sidebar) .widget.social-widget .social-links li a.social-link:before, .single-post-wrapper .post-category--tags .right-post-top-content .post-share-icon .fl_share_icon:hover, .testimonial-slider .fl-testimonial-slide .bottom-content, .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover:before, .fl-vc-vehicle-search form .fl-auto-search-bodies .fl-auto-search-bodies-select option:before, .sidebar:not(.cars-sidebar) .dealer-info .dealer-top-info, .fl-recent_auto-isotope .slick-dots li.slick-active, .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover:before {
+    background-color: #005383 !important;
+}
+
+.fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .date-post a i, .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .fl-comment-count i, .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .fl-view-count i, .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info .date-post a i, .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment-author-name, .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .slider-grid__price_wrap .slider-grid__price, .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i, .car-details .wrap-nav-table-content ul li span, .sidebar:not(.cars-sidebar) .dealer-info .dealer-bottom-info .phone-info .left i, .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .fl-autos-equip .fl-equip:before {
+    color: #005383 !important;
+}
+
+.fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post--title a:hover, .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .author-post .author-link a, .single-post-wrapper .post-category--tags .tags-single-blog .tags-content, blockquote, .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .slider-grid__price_wrap .slider-grid__price, .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .fl-autos-equip .fl-equip:before, .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-author span.author-link a, .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content span i, .fl-home-page-posts-content-vc .home-page-post-container .slick-dots li.slick-active:before, .fl-recent_auto-isotope .slick-dots li.slick-active:before, .fl-body-types .fl-body-types .fl-auto-body-item a, .car-details .vehicle-characteristics .vehicle-characteristics-title {
+    color: #005383;
+}
+
+.sidebar:not(.cars-sidebar) .widget_categories ul li:hover, .fl-body-types .fl-body-types .fl-auto-body-item:hover {
+    border-color: #005383 !important;
+}
+
+.fl-button-wrapper-vc .button-container .fl-vc-button {
+    background-color: #005383;
+}
+
+footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe-input .mc4wp-form-fields .fl-subscr-submit, .footer-widget-area .widget .widget--title:before, .fl-page-heading .heading-mask .fl-mask-bg-img:after, .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info-category a, .fl-default-pagination .page-numbers.current, .fl-default-pagination .page-numbers:hover, .fl-single-post-header .post-holder--info .post-info .left-post-top-content .category-post a, .fl-comment-form .submit-btn-container button, .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a, .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button, .fl-autos-search .fl-autos-search-search-contain form .btn, .fl-autos-search:after, .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button, .fl-action-content-wrapper-vc .inner-content .fl_right-content .action-btn, .fl-icon-box .fl-icon-box-style-one .icon-box-icon-wrapper, .fl-vc-vehicle-search form .fl-auto-search-bodies .fl-auto-search-bodies-select option:checked:before, .fl-vc-vehicle-search form .btn, .car-details .car-details__wrap-title .car-details__title:before, .car-details .tabs-content .tab-content ul:not(.pixad-features-list) > li:before, .sidebar:not(.cars-sidebar) .widget-contact-form .fl-dealer-form .submit-btn-container, .sidebar:not(.cars-sidebar) .auto-price-info, html .fl-button-wrapper-vc .button-container .fl-vc-button:hover {
+    background-color: #d3d126 !important;
+}
+
+.fl-top-header-content .info-container .left-top-header-content .header-sidebar .fl-header-info-widget > div i, .fl-top-header-content .info-container .right-top-header-content .fl-top-socials .fl-top-header-socials a:hover, html .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-btn i, .fl--header .nav-menu li a:hover, .footer-widget-area .footer-address-widget .footer-info-widget-wrapper a i, .footer-widget-area .widget_nav_menu ul li:hover:before, .fl-page-heading .fl--page-header .fl-pre--title-wrapper .fl--sub-title, .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .date-post i.fa-circle, .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .fl-comment-count i.fa-circle, .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info .date-post i.fa-circle, .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info .fl-comment-count i.fa-circle, .fl-blog-post-div .post-style-default .fl-post--item .post-left-content .post-text--content a i, .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info .fl-post-title a:hover, .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info .date-post a:hover, .sidebar:not(.cars-sidebar) .widget_recent_entries ul li a:hover, blockquote:after, .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-bottom-content .post-link i, .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content i.fa-circle, .testimonial-slider .fl-testimonial-slide .bottom-content:after, .testimonial-slider .slick-dots li.slick-active:before, .car-details .vehicle-characteristics .list-descriptions .dd-item dt.left:before, .car-details .tabs-content .tab-content .pixad-features-list li i, .tab-content p.stars a:before, .fl-top-header-content .info-container .right-top-header-content .fl-account-btn .header-login i, .tm-holder-function .sidebar:not(.cars-sidebar) ol.wp-block-latest-comments .wp-block-latest-comments__comment-meta a:hover {
+    color: #d3d126 !important;
+}
+
+.fl-button-wrapper-vc .button-container .fl-vc-button i {
+    color: #d3d126;
+}
+
+footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain, .sidebar:not(.cars-sidebar) .widget h2, .sidebar:not(.cars-sidebar) .widget_categories ul li, .comment-title-content .font-text, blockquote, .fl-autos-search .fl-autos-search-title-contain, .testimonial-slider .fl-testimonial-slide .bottom-content .fl-testimonials-content, .fl-icon-box .fl-icon-box-style-two .icon-box-right-content, .fl-vc-vehicle-search form .fl-auto-search-bodies .fl-auto-search-bodies-select, .car-details .vehicle-characteristics .vehicle-characteristics-title, .car-details .wrap-nav-table-content ul li.active span, .sidebar:not(.cars-sidebar) .widget .fl-sidebar-title-contain .widget-title {
+    border-color: #d3d126 !important;
+}
+
+.fl-default-pagination .page-numbers, .sidebar:not(.cars-sidebar) .widget {
+    background: #f4f8fb;
+}
+
+footer.fl--footer {
+    background: #141414 !important;
+}
+
+.fl--footer .fl-social-content-footer .fl-social--inner .fl_footer_social_icon {
+    background: #2c2c2c !important;
+}
+
+.fl-page-heading .heading-mask, .fl-page-heading .heading-mask .fl-mask-bg-img:before {
+    background: #04182e !important;
+}
+
+body {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-transform: none;
+    color: #555555;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .fl-text-title-style {
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: none;
+    color: #222222;
+}
+
+.fl-font-style-bolt {
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+.fl-font-style-regular {
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+.fl-font-style-italic {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1, .h1 {
+    font-size: 56px;
+}
+
+h2, .h2 {
+    font-size: 40px;
+}
+
+h3, .h3 {
+    font-size: 36px;
+}
+
+h4, .h4 {
+    font-size: 32px;
+}
+
+h5, .h5 {
+    font-size: 22px;
+}
+
+h6, .h6 {
+    font-size: 18px;
+}
+
+#fl-page--preloader .fl-top-background-preloader, #fl-page--preloader .fl-bottom-background-preloader {
+    background-color: #fff;
+}
+
+#fl-page--preloader .fl-top-progress .fl-loader_left, #fl-page--preloader .fl-top-progress .fl-loader_right, #fl-page--preloader .fl--preloader-progress-bar span {
+    background-color: #d3d126 !important;
+}

@@ -1,0 +1,3823 @@
+/*ver 1.5*/
+
+body {
+    background: #fff
+}
+
+
+
+.woocommerce-ResetPassword {
+    border: 1px solid #ddd;
+    padding: 25px;
+    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+html .woocommerce a.remove {
+    display: block;
+    font-size: 1.5em;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    line-height: 1;
+    border-radius: 100%;
+    color: #dc2d13 !important;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    margin: 0 auto;
+}
+
+.woocommerce-form-coupon .form-row {
+    min-width: 50%;
+}
+
+
+.woocommerce-table__line-item order_item .wc-item-meta li {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.woocommerce table.shop_table tbody tr td.actions .coupon button,
+.woocommerce table.shop_table tbody tr td.actions .update--cart-content button.update_cart,
+.woocommerce .cart-collaterals .cart_totals a.checkout-button,
+.woocommerce .return-to-shop a.wc-backward,
+form.checkout #order_review #payment .place-order button,
+.woocommerce form.login .form-row button.button,
+.woocommerce form.lost_reset_password button.button,
+.woocommerce button.button {
+    color: #fff;
+}
+
+.woocommerce table.shop_table tbody tr td.actions .coupon button:hover,
+.woocommerce table.shop_table tbody tr td.actions .update--cart-content button.update_cart:hover:enabled,
+.woocommerce .cart-collaterals .cart_totals a.checkout-button:hover,
+.woocommerce .return-to-shop a.wc-backward:hover,
+form.checkout #order_review #payment .place-order button:hover,
+.woocommerce form.login .form-row button.button:hover,
+.woocommerce form.lost_reset_password button.button:hover,
+.woocommerce button.button:hover {
+    background-color: #d3d126 !important;
+    color: #222 !important;
+}
+
+
+html .woocommerce-page table.cart td.actions .coupon + .button {
+    display: none !important;
+}
+
+html .woocommerce td.product-name .wc-item-meta dd,
+html .woocommerce td.product-name dl.variation dd {
+    display: inline-block;
+    width: 49%;
+}
+
+html .woocommerce-error,
+html .woocommerce-info,
+html .woocommerce-message {
+    background-color: #f4f8fb;
+}
+
+
+html .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+.checkout_coupon .button {
+    color: #fff !important;
+}
+
+
+#single-pixad-autos-modal .modal-body,
+#single-pixad-extra-modal .modal-body {
+    padding-top: 20px !important;
+}
+
+
+.booking-notice {
+    margin-bottom: 20px !important;
+}
+
+
+.booking_form .rb_field select {
+    border: 0;
+    border-radius: 0;
+}
+
+
+.woocommerce-thankyou-order-received {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #005383 !important;
+}
+
+.woocommerce-column__title,
+.woocommerce-order-details__title {
+    font-size: 20px;
+}
+
+
+#single-pixad-autos-modal .modal-content,
+#single-pixad-extra-modal .modal-content {
+    background: #f4f8fb !important;
+}
+
+.wc-item-meta li:before {
+    display: none !important;
+}
+
+.wc-item-meta li {
+    display: inline-block;
+    width: 100%;
+}
+
+.wc-item-meta li strong {
+    position: relative;
+    top: -2px;
+    padding-right: 2px;
+}
+
+
+.woocommerce-page .inner_content table ul,
+.woocommerce-page .fl-comment-moderation table ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+html .woocommerce form .form-row input.input-text,
+html .woocommerce form .form-row textarea {
+    background-color: #f4f8fb;
+}
+
+
+.woocommerce-info a {
+    color: #005383;
+}
+
+#order_review_heading {
+    padding-top: 50px;
+}
+
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+    background: #f4f8fb !important;
+}
+
+#add_payment_method #payment ul.payment_methods li input,
+.woocommerce-cart #payment ul.payment_methods li input,
+.woocommerce-checkout #payment ul.payment_methods li input {
+    margin: 0 0.2em 0 0;
+}
+
+
+html .woocommerce .woocommerce-customer-details address {
+    padding: 20px;
+    background: #f4f8fb;
+}
+
+
+html .woocommerce-checkout #payment div.payment_box::before {
+    border-bottom-color: #d0dfe9;
+}
+
+
+html .woocommerce form .form-row .required {
+    color: #dc2d13;
+}
+
+.woocommerce .woocommerce-cart-form button.button {
+    background-color: #d3d126 !important;
+    color: #222 !important;
+    font-size: 12px;
+}
+
+.woocommerce-terms-and-conditions-checkbox-text {
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+
+html #add_payment_method #payment div.payment_box,
+html .woocommerce-cart #payment div.payment_box,
+html .woocommerce-checkout #payment div.payment_box {
+    background-color: #d0dfe9;
+}
+
+.cart_totals.calculated_shipping h2,
+.woocommerce-column__title,
+.woocommerce-order-details__title,
+#customer_details h3,
+#order_review_heading {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #005383;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #d3d126 !important;
+    display: inline-block;
+    padding-right: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+html .woocommerce table.shop_table th {
+    background: #f4f8fb;
+    padding: 20px;
+    color: #222 !important;
+}
+
+html collaterals .cart_totals .cart-subtotal {
+    display: block;
+}
+
+.shop_table .amount,
+.shop_table .product-price {
+    color: #222 !important;
+}
+
+
+html add_payment_method table.cart img,
+html .woocommerce-cart table.cart img,
+html .woocommerce-checkout table.cart img {
+    width: 97px;
+}
+
+
+.woocommerce-terms-and-conditions-wrapper .required {
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+
+
+.coupon .input-text {
+    border: 1px solid #ddd !important;
+    height: 37px !important;
+    width: 145px !important;
+    height: 40px !important;
+}
+
+
+.booking-attr-cart,
+.woocommerce-privacy-policy-link,
+.woocommerce-terms-and-conditions-link {
+    color: #005383 !important;
+}
+
+
+.wc-proceed-to-checkout .checkout-button {
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    padding: 30px !important;
+}
+
+#booking_car_info .car-details__price-inner {
+    display: none !important;
+}
+
+
+html .booking-auto-form .wrap_fields .rb_field:first-child {
+    padding-top: 0 !important;
+}
+
+.hours_price_title_contain .pixad_auto_price_in_hour {
+    position: relative;
+    left: 2px;
+    top: -1px;
+}
+
+
+.tm-main-holder-function .container.tm-holder-function {
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+}
+
+
+html .sidebar:not(.cars-sidebar) .auto-price-info {
+    background-color: #d3d126 !important;
+
+}
+
+
+
+
+
+.extra_service_title_item .extr-right .woocommerce-Price-amount.amount,
+.extra_service_title_item .extr-right .resource,
+.pixad_auto_price_in_hour {
+    color: #005383 !important;
+    font-weight: bold;
+}
+
+.pixad_auto_price_in_hour {
+    float: right;
+}
+
+
+.tm-main-holder-function .container_wide {
+    max-width: 1170px !important;
+}
+
+
+html .blog .container_wide {
+    max-width: 1170px !important
+}
+
+
+.is-style-squared a.wp-block-button__link {
+    border-radius: 0 !important;
+}
+
+.fl-blog-post-div .post-style-default .fl-post--item.sticky {
+    display: block;
+    align-items: center;
+    margin-bottom: 95px;
+    background: #f4f8fb;
+    padding: 20px 50px 50px;
+}
+
+
+.booking-auto-form .hours_price_title_contain label {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+    color: inherit;
+    padding-left: 0 !important;
+    margin-bottom: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+html #booking_form .pixba_contact_modal_btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #222;
+    font-style: italic;
+    background: transparent;
+    padding: 10px 20px;
+    border: 0;
+    background: #d0dfe9;
+}
+
+
+html #booking_car_info .booking_form {
+    background: #f4f8fb !important;
+    border: 0;
+}
+
+
+html .booking-auto-form button.submit {
+    text-transform: uppercase;
+    color: #222;
+    background-color: #d3d126 !important;
+    border: 0;
+    border-radius: 0;
+    font-weight: 500;
+    margin-top: 30px;
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 30px;
+}
+
+@media screen and (max-width:1800px) and (min-width:1500px) {
+
+
+    html .fl-page-heading .fl--page-header .header-title {
+        font-size: max(1em, min(4em, 5.333vw)) !important;
+        line-height: 62px !important;
+    }
+
+
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        width: 26%;
+    }
+
+
+}
+
+@media screen and (max-width:1500px) {
+
+
+    html .fl-page-heading .fl--page-header .header-title {
+        font-size: max(1em, min(4em, 5.333vw)) !important;
+        line-height: 62px !important;
+    }
+
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        width: 26%;
+    }
+
+
+}
+
+
+@media screen and (max-width:1000px) {
+
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+
+    html .tm-main-holder-function footer.fl--footer .fl-footer-top-contain {
+        padding-left: 15px !important;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+    html .fl-page-heading .fl--page-header .header-title {
+        line-height: 36px !important;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    footer.fl--footer .footer__decor {
+        display: none !important;
+    }
+
+
+    html .fl-page-heading .fl--page-header .header-title {
+        line-height: 28px !important;
+    }
+
+
+}
+
+
+.sidebar:not(.cars-sidebar) .widget .fl-sidebar-title-contain .widget-title {
+    line-height: 1.4;
+}
+
+html .fl--header .nav-menu li .sub-menu li a:hover {
+    color: #222 !important;
+    text-decoration: underline !important;
+}
+
+
+
+html .sidebar:not(.cars-sidebar) .dealer-info .dealer-bottom-info {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner:before {
+    content: '';
+    width: 89%;
+}
+
+footer .fl_footer_logo {
+    max-width: 170px;
+}
+
+
+
+html .sidebar:not(.cars-sidebar) .dealer-info .dealer-top-info .right {
+    s margin-left: 15px;
+}
+
+.fl-blog-post-pagination .page-numbers.prev,
+.fl-blog-post-pagination .page-numbers.next {
+    display: none;
+}
+
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl_location .jelect-current {
+    padding-left: 40px;
+}
+
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl_booking_time_start:before {
+    bottom: 23px;
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl_location:before {
+    bottom: 24px;
+}
+
+html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner:before {
+    height: 69px;
+    opacity: 0.5;
+
+}
+
+
+.wp-block-cover-text {
+    position: relative;
+}
+
+
+.wp-block-cover,
+.wp-block-cover-image {
+    margin-bottom: 25px;
+}
+
+
+
+html .vc-auto-search .jelect-current,
+.vc-auto-search div.select {
+    color: #7b7d7f;
+}
+
+
+.fl-blog-post-pagination.text-left {
+    padding-bottom: 100px;
+}
+
+
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .pixad-makes-models-select .jelect-current {
+    z-index: 99;
+    position: relative;
+    background: #fff;
+}
+
+
+html .fl--404-page-wrapper .fl-404-text-wrapper .fl-404-text-left-content i {
+    font-size: 50px;
+    margin-right: 7px;
+    top: -7px;
+}
+
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl-return-same-contain {
+    width: 100%;
+}
+
+
+html .fl--404-page-wrapper .btn-404-wrapper {
+    display: none;
+}
+
+
+html .fl-vc-vehicle-search form .btn button span {
+    font-family: Open Sans;
+}
+
+
+html .sidebar:not(.cars-sidebar) .widget_tag_cloud a,
+html .sidebar:not(.cars-sidebar) .widget_product_tag_cloud a {
+    padding: 9px 15px 8px 15px;
+    line-height: 22px;
+}
+
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-author:before {
+    opacity: 0.7;
+}
+
+.comments-list .fl-comment-form {
+    margin-bottom: 150px;
+}
+
+
+html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner .icon-box-icon-wrapper {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+html .fl-page-heading .fl--page-header {
+    margin-left: 0;
+    text-align: center;
+    width: 100% !important;
+    max-width: 100%
+}
+
+html .fl-page-heading .fl--page-header {
+    margin-left: 0;
+    text-align: center;
+    width: 100% !important;
+    max-width: 100%;
+}
+
+.fl-dealer-form .submit-btn-container {
+    margin-top: 25px
+}
+
+html .sidebar:not(.cars-sidebar) .widget_calendar .calendar_wrap #wp-calendar thead th {
+    border: 0 !important
+}
+
+.fl-blog-post-pagination .fl-default-pagination:before {
+    display: none
+}
+
+html .autos-container .row {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+html .wpcf7 form.wpcf7-form input[type=submit] {
+    text-transform: none;
+    text-align: center;
+    padding: 23px 35px
+}
+
+.fl-blog-post-pagination .fl-default-pagination {
+    margin-top: 0;
+    padding: 0
+}
+
+.fl-comment-form .comment-field-wrapper .author-name {
+    padding-left: 0;
+    width: 50%;
+    padding-right: 3%
+}
+
+.fl-comment-form .comment-field-wrapper .author-email {
+    width: 50%
+}
+
+.fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .date-post .fa-calendar-o {
+    margin-right: 6px
+}
+
+.fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .fl-comment-count .fa-comment-o {
+    margin-right: 5px
+}
+
+.fl-view-count .fa-eye {
+    margin-right: 5px
+}
+
+html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info .author-post {
+    margin-right: 8px
+}
+
+html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info .date-post a {
+    margin-right: 10px
+}
+
+html .fl-blog-post-div {
+    margin-bottom: 0
+}
+
+html .top-content-footer .textwidget .footer-info {
+    margin-top: -10px
+}
+
+#calendar_wrap .wp-calendar-nav {
+    text-align: center;
+    padding-top: 10px
+}
+
+.fl-vc-vehicle-search .search_style_two .vc-auto-search .btn:hover {
+    background: #005383 !important;
+    color: #fff !important
+}
+
+html .fl-mobile-menu-wrapper .fl--mobile-menu-navigation-wrapper nav {
+    padding: 0 25px
+}
+
+.fl-vc-vehicle-search .search_style_two .vc-auto-search .btn:hover .btn-skew-r__inner {
+    color: #fff !important
+}
+
+.fl_custom_text__block blockquote:before {
+    display: none
+}
+
+html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner {
+    position: relative;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 30px
+}
+
+html .calendar_wrap #wp-calendar caption {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    text-align: center
+}
+
+html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info-category .post-categories li {
+    display: inline-block;
+    margin-bottom: 22px
+}
+
+html .fl-comment-form .author-comment {
+    padding-top: 25px
+}
+
+html .wp-block-group {
+    margin-bottom: 25px
+}
+
+html .fl-comment-moderation .wp-caption,
+html .inner_content .wp-caption {
+    max-width: 100%
+}
+
+.wp-block-pullquote.has-background.has-cyan-bluish-gray-background-color.is-style-solid-color blockquote {
+    border: 0
+}
+
+html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info-category .post-categories {
+    display: inherit
+}
+
+html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner .icon-box-icon-wrapper i:before {
+    font-size: 183px;
+    position: relative;
+    bottom: unset;
+    right: unset;
+    top: unset;
+    margin-top: -63px;
+    text-align: center;
+    margin-bottom: -38px
+}
+
+html .nice-select {
+    padding-left: 15px;
+    color: #7b7d7f
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button:hover {
+    color: #fff !important
+}
+
+.fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content .action-btn:hover,
+.fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button:hover {
+    background: #005383 !important;
+    color: #fff !important
+}
+
+.fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button:hover .fl-button-shadow:before {
+    display: none !important
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .auto-tax-icons .fl-cat-image-auto span.body_name_contain i {
+    font-size: 19px;
+    margin-right: 12px
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .auto-tax-icons .fl-cat-image-auto span.body_name_contain i.bestbus-icon-icon6 {
+    margin-right: 16px
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .auto-tax-icons .fl-cat-image-auto span.body_name_contain span.body_name {
+    font-size: 14px;
+    font-weight: 700
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .auto-tax-icons .fl-cat-image-auto span.body_name_contain i.bestbus-icon-4wd {
+    margin-right: 25px
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .auto-tax-icons .fl-cat-image-auto {
+    cursor: pointer
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search .btn-bg {
+    height: 390px;
+    top: 20px;
+    right: -115px;
+    bottom: unset;
+    width: 390px
+}
+
+.fl-vc-vehicle-search .search_style_two .vc-auto-search {
+    -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 50px;
+    transition: all .3s ease
+}
+
+html .fl-vc-vehicle-search .search_style_two .vc-auto-search ul.jelect-options {
+    max-height: 85px
+}
+
+html .fl-vc-vehicle-search form .btn button span {
+    font-weight: 700;
+    text-transform: none;
+    color: #222;
+    font-size: 16px
+}
+
+html .fl-vc-vehicle-search form .btn button i {
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+    margin-right: 19px;
+    display: inline-block;
+    margin-left: 7px
+}
+
+html .fl-vc-vehicle-search form .btn button span {
+    position: relative;
+    top: 0;
+}
+
+
+html .fl-mega-menu ul li.menu-item-depth-0.has-submenu > a:after {
+    top: 13px;
+    right: 2px;
+}
+
+html .fl-vc-vehicle-search form .btn button i {
+    font-size: 10px
+}
+
+.fl-vc-vehicle-search .search_style_two .vc-auto-search:hover {
+    -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%)
+}
+
+.fl-resent-cars-vc i.fa-angle-right {
+    margin-right: -30px !important;
+    cursor: pointer
+}
+
+.fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover a {
+    transition: all .3s ease
+}
+
+.fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover a:hover,
+.pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover a:hover {
+    color: #222;
+    background: #fff
+}
+
+.fl-resent-cars-vc i.fa-angle-left {
+    margin-left: -30px !important;
+    cursor: pointer
+}
+
+html .fl-resent-cars-vc:hover i.fa-angle-left,
+html .fl-resent-cars-vc:hover i.fa-angle-right {
+    opacity: 1 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
+
+html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info-category {
+    margin-bottom: 10px
+}
+
+.fl-resent-cars-vc.style_two .fl-recent_auto-isotope i.fa-angle-left,
+.fl-resent-cars-vc.style_two .fl-recent_auto-isotope i.fa-angle-right {
+    opacity: 0
+}
+
+.fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two div.bottom-content:before,
+.fl-vc-vehicle-search .search_style_two .vc-auto-search .btn-bg,
+html .fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content:hover .action-btn-bg:after {
+    animation: 15s linear 0s normal none infinite running btn-bg;
+    -webkit-animation: 15s linear 0s normal none infinite running btn-bg
+}
+
+@keyframes btn-bg {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes btn-bg {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.testimonial-slider .slick-list .fl-testimonial-slide .bottom-content:before html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-author {
+    display: none !important
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .tmpl-slider-grid__name {
+    font-weight: 300
+}
+
+html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-labels {
+    width: 80%
+}
+
+html .fl-icon-box .fl-icon-box-style-three .icon-box-right-content .icon-box-title {
+    font-size: 19px
+}
+
+html .fl-icon-box .fl-icon-box-style-three .icon-box-right-content .icon-box-text-content {
+    font-size: 14px
+}
+
+.footer-info i {
+    float: left;
+    font-size: 35px;
+    margin-right: 5px;
+    position: relative;
+    margin-top: 10px;
+    color: #fff
+}
+
+.fl-footer-info-top {
+    font-size: 15px;
+    color: #fff;
+    opacity: .7;
+    width: 100%;
+    display: block
+}
+
+.fl-footer-info-bot {
+    font-size: 16px;
+    color: #fff;
+    opacity: .9;
+    margin-top: -3px;
+    display: block
+}
+
+html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-inputs .fl-subscr-icon {
+    left: -16px;
+    top: 10px;
+    font-size: 16px
+}
+
+html .footer-widget-area .social-widget ul li a:hover {
+    background-color: #005383
+}
+
+footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-labels label {
+    line-height: 46px
+}
+
+html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-inputs .fl-subscr-input {
+    color: #fff !important;
+    font-size: 16px
+}
+
+html .sidebar:not(.cars-sidebar) .widget-contact-form .fl-dealer-form .submit-btn-container button:after {
+    background-color: #005383 !important
+}
+
+html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl-subscr-submit {
+    border-radius: 2px
+}
+
+html .sidebar:not(.cars-sidebar) .widget-contact-form .fl-dealer-form .submit-btn-container button:hover {
+    color: #fff
+}
+
+html .sidebar:not(.cars-sidebar) .widget-contact-form .fl-dealer-form .submit-btn-container button:hover i {
+    color: #fff
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one:hover .fl-img-hover {
+    height: 253px !important
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content {
+    margin-top: 30px
+}
+
+html .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .tmpl-slider-grid__name {
+    margin-bottom: 0
+}
+
+html .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .fl-subhead-title {
+    margin-bottom: 15px
+}
+
+html .sidebar:not(.cars-sidebar) .auto-price-info {
+    padding: 50px 30px 30px 30px;
+    margin-bottom: 35px;
+}
+
+html .fl-vc-vehicle-search {
+    margin: 0 auto;
+    max-width: 1260px;
+    width: 100%;
+}
+
+
+html .vc_custom_1619515709242 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+html .search .search_style_two .vc-auto-search .pixad-makes-models-select {
+    width: 25%;
+}
+
+.fl--hamburger-menu-wrapper .fl-flipper-icon .fl-front-content span,
+html .fl--hamburger-menu .fl-flipper-icon .fl-front-content span {
+    height: 2px;
+    background: #fff
+}
+
+
+
+.auto-price-info .car-price .price-detail .after-price-text,
+.slider-grid__price .after-price-text {
+    font-size: 14px
+}
+
+.pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button {
+    cursor: pointer
+}
+
+html .sidebar:not(.cars-sidebar) .auto-price-info .car-price .bottom-info {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 30px;
+    max-width: 113px;
+    line-height: 20px
+}
+
+.welcome-container .vc_column-inner {
+    max-width: 2000px;
+    margin: 0 auto
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info .dealer-bottom-info .phone-info .left i {
+    font-size: 41px;
+    margin-right: 6px;
+    position: relative;
+    top: 4px;
+    margin-left: 3px
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info .social-info ul li a {
+    display: inline-block
+}
+
+html .car-details .wrap-nav-table-content ul li span {
+    font-size: 20px
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info .dealer-bottom-info .phone-info .right .top {
+    font-size: 16px;
+    margin-bottom: 3px;
+    margin-top: 10px
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info .dealer-top-info .left {
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+html .fl-contact-info-wrapper-vc .contact_title_one,
+html .fl-contact-info-wrapper-vc .contact_title_two {
+    margin-bottom: 0
+}
+
+.fl-contact-info-wrapper-vc .contact_text_two,
+html .fl-contact-info-wrapper-vc .contact_text_one {
+    font-size: 20px
+}
+
+.fl-contact-info-wrapper-vc .contact_text_two,
+html .fl-contact-info-wrapper-vc .contact_text_one {
+    line-height: 37px
+}
+
+.fl-contact-info-wrapper-vc .contact_text_two,
+html .fl-contact-info-wrapper-vc .contact_text_one {
+    margin-bottom: 10px
+}
+
+html .fl-contact-info-wrapper-vc {
+    position: relative
+}
+
+html .fl-contact-info-wrapper-vc .fl-bg-dots {
+    width: 100%;
+    left: 0;
+    right: 0
+}
+
+@media screen and (min-width:1800px) {
+
+    html .container_wide,
+    html .welcome-container .vc_column-inner {
+        max-width: 90% !important
+    }
+}
+
+@media screen and (min-width:1800px) {
+    .vc_section.rent_van_truck_bus_within_your_budget {
+        background-position: 110px 0 !important;
+        min-height: 750px
+    }
+}
+
+@media screen and (max-width:1620px) {
+    .header-support-nav-online {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:1800px) and (min-width:1600px) {
+
+    .container_wide,
+    .welcome-container .vc_column-inner {
+        max-width: 90% !important;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:1600px) and (min-width:1300px) {
+
+    .container_wide,
+    .welcome-container .vc_column-inner {
+        max-width: 1240px !important
+    }
+
+
+}
+
+@media screen and (max-width:1300px) and (min-width:1170px) {
+
+    .container_wide,
+    .welcome-container .vc_column-inner {
+        max-width: 1240px !important
+    }
+}
+
+
+@media screen and (max-width:1240px) and (min-width:1140px) {
+
+    .fl-header--navigation .fl-bottom-header-content .fl-navigation-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    html .fl-vc-vehicle-search {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width:1400px) and (min-width:1300px) {
+
+
+    .img-001 {
+        margin-top: 100px;
+    }
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:1300px) and (min-width:1200px) {
+
+
+    .img-001 {
+        margin-top: 200px;
+    }
+
+
+    html body .fl-icon-box .fl-icon-box-style-two .icon-box-right-content .icon-box-title {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1200px) and (min-width:900px) {
+
+    html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
+        margin-top: 0;
+    }
+
+    html .testimonial-slider {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+
+    html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .fl-autos-equip {
+        column-count: 1;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+
+
+
+
+
+    html .car-details .auto-slider .slides {
+        height: auto !important;
+    }
+
+
+    html .sidebar:not(.cars-sidebar) .auto-price-info {
+        margin-top: 50px;
+    }
+
+
+    .car-details .auto-carousel {
+        display: none;
+    }
+
+
+
+    html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner:before {
+        display: none !important;
+    }
+
+
+    .fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content .action-btn-bg:after {
+        display: none !important;
+    }
+
+}
+
+
+
+@media screen and (max-width:680px) {
+
+
+
+
+
+    html .fl-page-padding,
+    html .fl-page-padding.bottom {
+        height: 60px;
+    }
+
+
+    html .comments-container .comments-list .fl-comment .comment-container .comment-meta {
+        padding-left: 0;
+    }
+
+
+    html .comments-container .comments-list .fl-comment .comment-container .comment-avatar {
+        height: 90px;
+        float: none;
+        padding-right: 0;
+    }
+
+    html blockquote {
+        margin-left: 0;
+    }
+
+
+
+    html .fl-page-heading .fl--page-header .fl-pre--title-wrapper {
+        float: none !important;
+    }
+
+
+    html .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two .slick-dots {
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    html .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two .slick-dots li {
+        display: inline-block;
+    }
+
+
+    html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
+        margin-top: 0;
+    }
+
+
+    .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two div.bottom-content:before {
+        display: none;
+    }
+
+
+    html .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two div.bottom-content:after {
+        right: 35px;
+        top: auto;
+        bottom: 35px;
+        font-size: 24px;
+    }
+
+}
+
+
+@media screen and (max-width:580px) {
+
+    html body .comment-title-content .font-text {
+        font-size: 21px;
+    }
+
+}
+
+
+
+@media screen and (max-width:480px) {
+
+
+
+
+
+    html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
+        padding: 39px 36px 60px 36px;
+    }
+
+
+    html .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two div.bottom-content .fl-testimonials-content {
+        top: 61px;
+        left: 166px;
+    }
+
+
+
+    html .fl-icon-box .fl-icon-box-style-two {
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    html .fl-icon-box .fl-icon-box-style-two .icon-box-right-content {
+        margin-right: 0;
+        padding-left: 0;
+        border: 0;
+    }
+
+
+    html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper {
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 15px;
+    }
+
+
+    html .fl-helping-row-responsive-616c3a1fe0f8f-9406 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    html #fl-page--preloader .fl-preloader--text-percent {
+        margin-top: 21px;
+    }
+
+
+
+    html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .fl-autos-equip {
+        column-count: 1;
+    }
+
+}
+
+
+@media screen and (max-width:380px) {
+
+
+    html .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment-author-name a {
+        max-width: 73%;
+        display: inline-block;
+    }
+
+
+    .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-img {
+        margin-bottom: 15px;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+
+
+    .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info {
+        width: 100% !important;
+    }
+
+
+    .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post {
+        display: inline-block !important;
+    }
+
+
+    html body .footer-widget-area .social-widget ul li {
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+
+
+
+    html .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a:before,
+    html .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a:after {
+        display: none !important;
+    }
+
+}
+
+
+
+@media screen and (max-width:1140px) and (min-width:800px) {
+
+
+    .fl-header--navigation .fl-bottom-header-content .fl-navigation-container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    html .fl-vc-vehicle-search {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+
+
+
+@media screen and (max-width:870px) {
+
+
+    html .fl-blog-post-div {
+        margin-top: 0;
+    }
+
+    html body .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl_location:before {
+        bottom: 25px;
+    }
+
+    html .fl-vc-vehicle-search form .btn {
+        top: 20px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+
+    html .footer-widget-area {
+        padding-bottom: 10%;
+    }
+
+
+
+
+    html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
+        margin-top: 0 !important;
+    }
+
+
+    html .testimonial-slider {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+
+    html .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two .slick-dots {
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    html .fl-vc-testimonial-slider-wrapper.style_two .testimonial-slider-two .slick-dots li {
+        display: inline-block;
+    }
+
+
+    html .container_wide,
+    html .welcome-container .vc_column-inner {
+        max-width: auto !important
+    }
+
+
+    html .fl-vc-vehicle-search .search_style_two .vc-auto-search .btn {
+        margin-left: 0;
+        width: 100% !important;
+        text-align: center;
+    }
+
+
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        width: 20%
+    }
+
+    html .fl-body-types .fl-body-types .fl-auto-body-item {
+        width: 100%
+    }
+
+    html .fl-vc-vehicle-search .search_style_two .vc-auto-search {
+        padding-bottom: 60px !important
+    }
+
+    html .fl-vc-vehicle-search .search_style_two .vc-auto-search .btn-bg {
+        display: none !important
+    }
+
+    html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl-subscr-submit {
+        width: 100%
+    }
+
+    html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-labels {
+        display: none !important
+    }
+
+    html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain {
+        padding-left: 0;
+        border-left: 0
+    }
+
+    html footer.fl--footer .fl--subscribe-contain {
+        float: none
+    }
+
+    html footer.fl--footer .fl-footer-top-contain img {
+        float: none
+    }
+
+    .fl-action-content-wrapper-vc {
+        max-width: 100%;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width:1170px) and (min-width:800px) {
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        width: 17%
+    }
+
+    .container_wide,
+    .welcome-container .vc_column-inner {
+        max-width: 100% !important
+    }
+
+
+
+    .header-support-nav-online {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
+    .header-support-nav-online {
+        display: none !important
+    }
+}
+
+
+@media screen and (max-width:1027px) and (min-width:990px) {
+
+
+    .fl-header--navigation .fl-bottom-header-content .fl-navigation-container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) and (min-width:900px) {
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-title a {
+
+        font-size: 16px;
+
+    }
+
+
+    html .fl-home-page-posts-content-vc.disable_slider .home-page-post-container .col-md-4 {
+        width: 29.2%;
+    }
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-author:before {
+        top: 50px;
+    }
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content i.fa-circle {
+        display: none;
+    }
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content span {
+        width: 100%;
+        display: inline-block;
+    }
+
+
+    html .page-post-container .col-md-4 {
+        width: 28.6%;
+    }
+
+
+    html .footer-widget-area-two {
+        padding-left: 0px;
+    }
+
+
+
+    .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .tmpl-slider-grid__name {
+        margin-bottom: 15px !important
+    }
+
+    .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain {
+        margin-bottom: 30px !important;
+        padding-bottom: 59px !important
+    }
+
+    .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button {
+        right: auto !important;
+        bottom: 0 !important;
+        left: 30px !important
+    }
+
+    .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button:before {
+        display: none !important
+    }
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+
+
+    .fl-copyright--inner.fl-copyright--links.col-md-6.text-right {
+        display: none;
+    }
+
+
+    html .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl-return-same-contain {
+        margin-top: 6px;
+        margin-bottom: 15px;
+        margin-left: 2px;
+    }
+
+
+}
+
+@media screen and (max-width:1000px) {
+
+    html .fl-blog-post-div .post-style-default .fl-post--item {
+        margin-bottom: 60px;
+    }
+
+    html .fl-blog-post-div .post-style-default .fl-post--item:last-child {
+        margin-bottom: 100px;
+    }
+
+
+    html .jelect-current {
+        font-size: 12px;
+    }
+
+    .fl-vc-vehicle-search form .vc-auto-search .pixad-makes-models-select .jelect-current {
+        font-size: 12px;
+    }
+
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info {
+        font-size: 14px
+    }
+
+    html .car-details .vehicle-characteristics .vehicle-characteristics-title {
+        width: 100%
+    }
+
+    html .fl-body-types .fl-body-types .fl-auto-body-item {
+        margin-bottom: -9px !important
+    }
+
+    html .fl-home-page-posts-content-vc .home-page-post-container {
+        text-align: center
+    }
+
+    html .fl-home-page-posts-content-vc.disable_slider .home-page-post-container .col-md-4 {
+        width: 100%;
+        max-width: 700px;
+        margin: 2% auto;
+        display: inline-block;
+        float: none;
+        text-align: left
+    }
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post {
+        margin: 20px 0
+    }
+}
+
+@media screen and (max-width:800px) {
+
+
+
+
+    html .jelect-current {
+        font-size: 12px;
+        color: #7b7d7f !important;
+    }
+
+
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        width: 10%
+    }
+
+    html .fl-single-post-header:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        background: rgba(000, 000, 000, .7)
+    }
+
+    html .fl-single-post-header {
+        height: 400px;
+        margin-bottom: 50px;
+    }
+
+    html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .category-post {
+        margin-bottom: 10px
+    }
+
+    html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .category-post a {
+        font-size: 9px;
+        padding: 8px 12px
+    }
+
+    html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info .author-post {
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 0
+    }
+
+    html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info .author-post {
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 0
+    }
+
+
+
+    html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 55px
+    }
+
+    html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .header-title {
+        font-size: 33px;
+        line-height: 43px;
+        margin-bottom: 20px
+    }
+
+    html #fl-page--preloader .fl--preloader-progress-bar {
+        max-width: 320px
+    }
+
+    html .fl-action-content-wrapper-vc .inner-content {
+        display: inline-block;
+        width: 100%;
+        height: auto
+    }
+
+    html .fl-action-content-wrapper-vc .inner-content img {
+        display: none
+    }
+
+    html .fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content .action-btn-bg {
+        bottom: 37px !important;
+    }
+
+    html .fl-action-content-wrapper-vc.style_two .action-btn {
+        bottom: 44px !important
+    }
+
+    html body .fl-vc-vehicle-search .search_style_two .vc-auto-search {
+        padding-bottom: 60px !important
+    }
+
+    .footer-sidebar-wrapper {
+        padding: 0 50px !important
+    }
+
+    html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain {
+        width: 100%
+    }
+
+    footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe {
+        display: block;
+        max-width: 80%;
+        margin: 0 auto
+    }
+
+    html footer.fl--footer .fl-footer-top-contain img {
+        display: none
+    }
+
+    html .fl-icon-box .fl-icon-box-style-two {
+        max-width: 600px
+    }
+
+    html body .fl-icon-box .fl-icon-box-style-two {
+        padding: 20px;
+
+    }
+
+    .header-support-nav-online {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:580px) {
+
+
+    html .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one {
+        margin-right: 0px;
+        margin-left: 0;
+    }
+
+
+    html .pix-dynamic-content #pixad-listing.grid .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 25px 0;
+    }
+
+
+    html .fl-page-heading .fl--page-header .fl-pre--title-wrapper .fl--sub-title {
+        font-size: 14px;
+        margin-top: -11px;
+        display: block;
+    }
+
+
+    html .fl-page-heading {
+        min-height: 150px;
+    }
+
+
+    html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-button:before {
+
+        width: 78px;
+        height: 95px;
+        top: -26px;
+        right: -30px;
+    }
+
+
+    html .fl-vc-vehicle-search form .vc-auto-search .select {
+        margin: 8px 5px !important;
+    }
+
+
+    html .fl-vc-vehicle-search .search_style_two .vc-auto-search .fl_location .jelect-current {
+        padding-right: 20px;
+    }
+
+
+    html .fl-vc-vehicle-search .jelect-current:after {
+        right: -4px;
+    }
+
+
+    html .fl-vc-vehicle-search form .vc-auto-search {
+
+        padding: 25px 25px 25px 15px;
+
+    }
+
+
+
+
+    html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-inputs .fl-subscr-input {
+        width: 230px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content i.fa-circle {
+        display: none;
+    }
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content span {
+        width: 100%;
+        display: inline-block;
+    }
+
+    html body .blog-post.left-post-style .post-holder {
+        height: auto !important;
+    }
+
+    html .fl-home-page-posts-content-vc .home-page-post-container {
+        text-align: center;
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+
+
+    html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-author:before {
+        right: 10px;
+        top: 51px;
+    }
+
+
+    html html .fl-home-page-posts-content-vc .home-page-post-container {
+        s margin-left: -25px;
+        margin-right: -25px;
+    }
+
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post--title a {
+        font-size: 19px;
+    }
+
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-left-content .date-post {
+        right: 15px;
+    }
+
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-left-content .date-post a {
+        padding: 19px;
+    }
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-left-content .date-post a span:first-child {
+        font-size: 19px;
+    }
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-left-content .date-post a span:last-child {
+        font-size: 13px;
+    }
+
+
+    html .fl-page-heading .heading-mask .fl-mask-bg-img {
+        width: 0%
+    }
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .date-post a {
+        margin: 0
+    }
+
+    .post-info i.fa-circle {
+        display: none !important
+    }
+
+    .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .fl-comment-count,
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .author-post,
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .date-post {
+        display: inline-block;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0
+    }
+
+    html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .author-post img {
+        display: none
+    }
+
+    .car-details .tabs-content .tab-content.active {
+        margin-bottom: 80px
+    }
+
+    html .car-details .wrap-nav-table-content ul li {
+        width: 100%
+    }
+
+    html footer.fl--footer .fl-footer-top-contain {
+        display: none !important
+    }
+}
+
+.post .fl-vc-custom-title-container .custom-title-content-wrapper .fl-title-vc {
+    padding-bottom: 20px
+}
+
+.fl-top-header-content .info-container a {
+    color: #fff;
+    opacity: .7
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover a {
+    padding: 6px 23px
+}
+
+.fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .fl-price-car {
+    margin-right: 2px
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .card__img .fl-img-hover:before {
+    opacity: .97
+}
+
+.fl-top-header-content .fl-logout-links {
+    padding: 0 20px;
+    border-right: 1px solid #fff;
+    line-height: 15px;
+    display: inline-block
+}
+
+html .fl-top-header-content .info-container .right-top-header-content .fl-top-socials .fl-top-header-socials a {
+    margin-right: 15px;
+    opacity: 1
+}
+
+html .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-btn i {
+    margin-right: 5px;
+    padding-right: 0 !important
+}
+
+html .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-btn .fl-header-phone-container .fl-header-phone-text {
+    opacity: .8;
+    margin-bottom: -5px;
+    margin-top: 3px
+}
+
+html .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-btn {
+    margin-left: 35px
+}
+
+html .fl-recent_auto-isotope .fl-autos-grid-one {
+    margin-bottom: 0
+}
+
+.fl-recent_auto-isotope .slick-dots li {
+    width: 10px;
+    height: 10px;
+    font-size: 31px;
+    background: #ddd;
+    margin: 0 5px;
+    border-radius: 100px
+}
+
+.fl-recent_auto-isotope .slick-dots li {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 31px;
+    background: #ddd;
+    margin: 0 5px;
+    border-radius: 100px
+}
+
+
+.fl-recent_auto-isotope .slick-dots li:before {
+    display: none !important
+}
+
+html .fl-button-wrapper-vc .button-container .fl-vc-button {
+    font-size: 16px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 600;
+    padding: 20px 30px
+}
+
+html .fl-button-wrapper-vc .button-container .fl-vc-button:hover,
+html .fl-button-wrapper-vc .button-container .fl-vc-button:hover i {
+    color: #222
+}
+
+html .fl-line-bottom-right:before {
+    bottom: -24px;
+    transform: rotate(-2deg)
+}
+
+html .fl-line-top-left:before {
+    top: -35px
+}
+
+html .fl-line-top-right:before {
+    top: -35px
+}
+
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-author,
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-holder {
+    padding: 0 20px
+}
+
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content i.fa-circle {
+    margin: 0 14px 0 12px
+}
+
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-bottom-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee
+}
+
+html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content {
+    padding: 20px 30px
+}
+
+.fl-single-post-header {
+    overflow: hidden
+}
+
+.fl-single-post-header .post-holder--info {
+    z-index: 12
+}
+
+.fl-single-post-header:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 14.375rem;
+    z-index: 9;
+    background: linear-gradient(transparent 1%, #000 90%)
+}
+
+.single-post-wrapper .post-category--tags .tags-single-blog .tags-content a:hover {
+    text-decoration: underline
+}
+
+html .fl-button-wrapper-vc .button-container .fl-vc-button {
+    transition: all .3s ease
+}
+
+html .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info .fl-post-title a {
+    color: #222 !important;
+    line-height: 23px;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 5px
+}
+
+html .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info .fl-post-title a:hover {
+    color: #222 !important
+}
+
+.sidebar:not(.cars-sidebar) .widget_product_tag_cloud a,
+html .sidebar:not(.cars-sidebar) .widget_tag_cloud a {
+    background: #fff;
+    font-size: 12px !important
+}
+
+.wp-calendar-table td:not([class]) {
+    padding: 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    background: #fff
+}
+
+html blockquote p cite {
+    margin-top: 10px
+}
+
+html blockquote p {
+    line-height: 34px;
+    font-weight: 400;
+    font-style: italic
+}
+
+blockquote p cite {
+    margin-top: 25px;
+    display: block;
+    color: #222;
+    font-size: 14px;
+    font-style: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+html .fl-comment-form .submit-btn-container button {
+    font-weight: 700;
+    text-transform: none
+}
+
+html .fl-comment-form .submit-btn-container button i {
+    position: relative;
+    top: 2px
+}
+
+html .fl-comment-form label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600
+}
+
+
+html .fl-body-types .fl-body-types .fl-auto-body-item.delivery-trucks img {
+    max-width: 110px;
+}
+
+html .fl-body-types .fl-body-types .fl-auto-body-item.loader-trucks img {
+    max-width: 130px;
+}
+
+html .fl-body-types .fl-body-types .fl-auto-body-item.towings img {
+    max-width: 110px;
+}
+
+
+html .fl-body-types .fl-body-types .fl-auto-body-item a img {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    max-width: 120px;
+    transition: all .3s ease
+}
+
+.comment-title-content {
+    color: #222;
+}
+
+
+html .fl-login_form form button {
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+html .fl-login_form .login_form_title {
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+
+
+html .login-in-btn:after {
+    background-color: #d3d126;
+    color: #222;
+}
+
+
+html .fl-login_form form button:hover {
+    color: #222;
+}
+
+
+.woocommerce-Input.woocommerce-Input--text.input-text {
+    margin-bottom: 5px;
+    border: 1px #dddddd solid;
+    border-radius: 5px;
+}
+
+
+html .woocommerce form .form-row label {
+    line-height: 2;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+
+.woocommerce-ResetPassword.lost_reset_password .woocommerce-Button.button {
+    color: #fff;
+}
+
+
+html .fl-flipper-icon .fl-back-content:hover .fl-custom-icon-plus-symbol {
+    color: #fff !important;
+    opacity: 0.9;
+}
+
+html .fl-body-types .fl-body-types .fl-auto-body-item a {
+    font-weight: 600
+}
+
+html .fl-counter-wrapper {
+    position: relative;
+    z-index: 9
+}
+
+html .fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content {
+    overflow: hidden;
+    margin: 0;
+    height: auto;
+    padding-top: 52px
+}
+
+
+html .fl-action-content-wrapper-vc .inner-content .fl_right-content .action-content {
+    padding-bottom: 25px;
+}
+
+
+
+
+html .fl-icon-box .fl-icon-box-style-two {
+    padding: 20px 0;
+    padding-right: 30px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-right-content .icon-box-text-content {
+    font-size: 14px;
+    line-height: 25px;
+    color: #555;
+    opacity: .8
+}
+
+.fl-action-content-wrapper-vc.style_two .action-btn {
+    bottom: 62px !important
+}
+
+.fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content .action-btn-bg {
+    left: 60px;
+    bottom: 55px !important
+}
+
+html .fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-content .action-btn-bg:after {
+    bottom: -209px;
+    left: 147px
+}
+
+.fl-action-content-wrapper-vc.style_two .action-content {
+    font-size: 15px !important
+}
+
+html .fl-icon-box .fl-icon-box-style-one .icon-box-icon-wrapper {
+    margin-right: 25px;
+    margin-top: 8px
+}
+
+html .fl-icon-box .fl-icon-box-style-one .icon-box-right-content .icon-box-text-content {
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 11px
+}
+
+html .fl-icon-box .fl-icon-box-style-one .icon-box-right-content {
+    margin-right: 0
+}
+
+html .fl-body-types .fl-body-types .fl-auto-body-item {
+    margin-left: -1px;
+    margin-bottom: -1px
+}
+
+
+
+html .fl-action-content-wrapper-vc .inner-content .fl_right-content .action-title {
+    margin-bottom: 10px
+}
+
+html .fl-action-content-wrapper-vc .inner-content .fl_right-content .action-content {
+    color: #555;
+    font-size: 12px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-right-content .icon-box-title {
+    margin-bottom: 10px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i {
+    font-size: 45px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i.bestbus-icon-icon13 {
+    font-size: 39px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i.bestbus-icon-icon14 {
+    font-size: 40px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i.bestbus-icon-icon11 {
+    font-size: 29px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i.bestbus-icon-icon15 {
+    position: relative;
+    left: 10px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-icon-wrapper i.bestbus-icon-icon16 {
+    position: relative;
+    left: 13px;
+    font-size: 48px
+}
+
+html .fl-icon-box .fl-icon-box-style-two .icon-box-right-content {
+    margin-right: 0
+}
+
+/*! Ver 0.2 */
+html .fl-contact-form .textarea-container {
+    margin-bottom: 0
+}
+
+.fl-page-heading .fl--page-header .header-title {
+    line-height: 1.3
+}
+
+.fl-form-comment-reply input[type=email],
+.fl-form-comment-reply input[type=password],
+.fl-form-comment-reply input[type=search],
+.fl-form-comment-reply input[type=tel],
+.fl-form-comment-reply input[type=text],
+.fl-form-comment-reply input[type=url],
+.fl-form-comment-reply select {
+    margin-bottom: 10px
+}
+
+.logged-in-as {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+
+html .fl-blog-post-div .post-style-default .fl-post--item .post-right-content .post-info .author-post .author-link a {
+    text-decoration: none !important;
+    color: #222 !important;
+}
+
+
+.tm-holder-function .logged-in-as a:hover {
+    color: inherit !important;
+    text-decoration: underline !important;
+}
+
+.fl-blog-post-div .inner_content a:active {
+    color: #ccc
+}
+
+html .comments-container .comment-title {
+    margin-bottom: 40px;
+    padding-top: 20px
+}
+
+.comment-respond {
+    padding-top: 20px
+}
+
+.fl-blog-post-div .inner_content a:active,
+.fl-blog-post-div .inner_content a:link,
+.fl-blog-post-div .inner_content a:visited {
+    color: #222;
+    text-decoration: underline
+}
+
+.fl-blog-post-div .inner_content a:hover {
+    text-decoration: none
+}
+
+.amount,
+.product-price {
+    color: #d3d126 !important
+}
+
+.shop-grid-item .woo-item-bottom-content .fl--woo-product-bottom-info-wrap .fl--add-to-cart-btn a.added,
+.shop-grid-item .woo-item-bottom-content .fl--woo-product-bottom-info-wrap .fl--add-to-cart-btn a:hover {
+    background: #d3d126 !important;
+    color: #fff !important
+}
+
+.widget_product_categories ul li a {
+    font-size: 15px !important
+}
+
+.widget_product_categories ul li {
+    border-bottom: 1px solid #ddd
+}
+
+html .widget_product_categories ul li a {
+    padding-left: 20px
+}
+
+html .fl-woo-filter {
+    margin-bottom: 20px
+}
+
+html .fl-single-product .fl-single-right-content .summary form.cart:not(.grouped_form) .quantity,
+html .fl-vc-car-detail-wrapper .fl-slider-arrows div {
+    border-color: #ddd !important
+}
+
+html .wc-tabs-wrapper ul li a {
+    padding: 20px 0 20px !important
+}
+
+html .wc-tab#tab-reviews form.comment-form {
+    margin-top: 0;
+    padding: 0 0 35px
+}
+
+html .wc-tab#tab-reviews .comment-reply-title {
+    padding-bottom: 0
+}
+
+html .single-product .woocommerce-message {
+    margin-top: 20px
+}
+
+html .widget_products ul li .product_summary .product-title,
+html .widget_top_rated_products ul li .product_summary .product-title {
+    font-weight: 400;
+    margin-top: -9px;
+    padding-bottom: 3px
+}
+
+html .shop-grid-item .woo-item-bottom-content .fl--woo-product-bottom-info-wrap .fl--woo-price-wrap .price {
+    font-size: 16px
+}
+
+.fl-custom-icon-minus-sign-of-a-line-in-horizontal-position.minus + .fl-custom-icon-minus-sign-of-a-line-in-horizontal-position.minus,
+.fl-custom-icon-plus-sign.plus + .fl-custom-icon-plus-sign.plus {
+    display: none
+}
+
+html .woocommerce .cart-collaterals .cart_totals table.shop_table tbody tr td,
+html .woocommerce .cart-collaterals .cart_totals table.shop_table tbody tr th {
+    font-size: 16px
+}
+
+.sidebar:not(.cars-sidebar) .widget {
+    padding-bottom: 40px
+}
+
+.widget_categories ul li a,
+html .sidebar:not(.cars-sidebar) .widget_archive ul li a {
+    font-size: 15px;
+    text-transform: capitalize
+}
+
+#recentcomments .comment-author-link {
+    font-weight: 700;
+    text-decoration: none
+}
+
+#recentcomments a {
+    text-decoration: underline
+}
+
+html .comments-container .comment-respond #cancel-comment-reply-link {
+    font-size: 16px;
+    padding-left: 10px;
+    color: red;
+}
+
+
+html vc-vehicle-search form .vc-auto-search .select .jelect-current {
+    position: relative;
+    z-index: 99;
+}
+
+.comment-reply-title {
+    padding-bottom: 10px;
+}
+
+.fl-blog-post-div .post-style-default-two .fl-post--item:last-child {
+    margin-bottom: 0
+}
+
+html .single-post-wrapper .post-category--tags .right-post-top-content {
+    text-align: right;
+    width: 34%;
+    padding-top: 10px
+}
+
+.sidebar .price-detail del {
+    font-size: 18px
+}
+
+.dealer-info .phone-info {
+    padding-left: 25px
+}
+
+.wpb_wrapper .container {
+    margin: auto
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info .dealer-bottom-info .phone-info .left {
+    margin-right: 15px
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info .social-info ul li {
+    font-size: 16px;
+    padding: 0 10px
+}
+
+html .pix-dynamic-content #pixad-listing.list .card .card__inner .top-content .left-content .card__title {
+    margin-bottom: 5px
+}
+
+html .pix-dynamic-content #pixad-listing.list .card .card__inner .top-content {
+    margin-bottom: 10px
+}
+
+html .car-details .car-details__wrap-title {
+    margin-bottom: 30px
+}
+
+html .sidebar:not(.cars-sidebar) .dealer-info {
+    margin-top: 20px
+}
+
+html .car-details .tabs-content .tab-content .contact-list-info .dd-item dt {
+    color: #222;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 15px;
+    display: inline-block
+}
+
+html .car-details .tabs-content .tab-content .contact-list-info .dd-item dd {
+    font-size: 15px;
+    display: inline-block
+}
+
+html .car-details .tabs-content .tab-content .contact-list-info .dd-item {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #ddd
+}
+
+html .fl-comment-form .comment-form-rating label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    margin: 0
+}
+
+html .fl-comment-form .stars {
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    margin-left: 10px;
+    display: inline-block
+}
+
+html .fl-comment-form .comment-form-rating {
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-top: 25px;
+}
+
+html .fl-blog-post-div .post-style-default-two .fl-post--item .post-right-content .post-info {
+    margin-bottom: 10px
+}
+
+html .single-post-wrapper .post-holder--info .post-info {
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+html .sidebar:not(.cars-sidebar) .widget_product_tag_cloud .tagcloud a:hover,
+html .sidebar:not(.cars-sidebar) .widget_tag_cloud .tagcloud a:hover {
+    background-color: #e8e621 !important;
+    color: #222 !important;
+    border-color: #e8e621 !important
+}
+
+html .pix-dynamic-content #pixad-listing.list .card .card__img .sale {
+    top: 15px;
+    left: 15px
+}
+
+html .car-details .auto-slider .sale {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 12px 15px;
+    background: #d3d126 !important
+}
+
+.vehicle-characteristics {
+    padding-bottom: 10px
+}
+
+.car-details .vehicle-characteristics .list-descriptions .dd-item dd {
+    text-transform: capitalize
+}
+
+.fl--header .nav-menu li .sub-menu li .sub-sub-menu,
+html .fl--header .nav-menu li .sub-menu li a {
+    font-size: 14px
+}
+
+html .comment-title-content .font-text {
+    font-weight: 700
+}
+
+html .button-container[data-animation].secondary-btn-style .fl-vc-button:after {
+    background-color: #222 !important
+}
+
+html .button-container[data-animation].secondary-btn-style .fl-vc-button {
+    border: 3px solid #fff !important;
+    background-color: #d3d126 !important
+}
+
+html .button-container[data-animation].secondary-btn-style .fl-vc-button:hover {
+    border-color: #222 !important
+}
+
+html .button-container[data-animation].secondary-btn-style:hover .btn-skew-r__inner {
+    color: #fff !important
+}
+
+html .fl-phone-number-wrapper-vc i {
+    margin-right: 10px
+}
+
+html .fl-blog-style--2 .fl-post--item .post-bottom-content .post-btn-read-more a {
+    padding: 15px 40px
+}
+
+html body .fl-action-content-wrapper-vc .vc-fl-action-content .inner-content .action-offer {
+    right: 33px;
+    bottom: 33px;
+    padding: 5px 15px
+}
+
+.fl-resent-cars-vc .vc-cars-wrapper .slider-grid__inner .tmpl-gray-footer .fl-auto-price .tmpl-slider-grid__mleage i {
+    padding-right: 6px;
+    font-size: 20px
+}
+
+html .fl-vc-vehicle-search form .fl-return-same-contain {
+    margin-top: 40px;
+    float: left
+}
+
+html .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-support-nav-online .header-btn-support .fl-live-support-text .fl-live-support-online {
+    margin-top: -3px
+}
+
+.tm-holder-function p {
+    line-height: 1.6
+}
+
+.tm-holder-function .fl-comment-moderation ol > li a:hover,
+.tm-holder-function .inner_content ol > li a:hover {
+    color: #d3d126;
+    text-decoration: underline
+}
+
+.tm-holder-function .fl_content_story a:hover {
+    color: #d3d126;
+    text-decoration: underline
+}
+
+.tm-holder-function .fl-post-bottom-content:after,
+.tm-holder-function .fl-post-bottom-content:before {
+    display: none
+}
+
+.tm-holder-function .fl--blog-style-standard .fl-post--item .fl-post-bottom-content {
+    padding: 0 50px 40px 0;
+    text-align: left;
+    border-bottom: 1px #eee solid
+}
+
+.sticky .fl-post--title a:before {
+    color: #8a9536 !important
+}
+
+.tm-holder-function .fl--blog-style-standard .sticky .fl-post-bottom-content {
+    margin: 30px;
+    padding-bottom: 0 !important;
+    border: 0 !important
+}
+
+html .single-post-wrapper .fl-prevnext-contain {
+    padding-top: 50px
+}
+
+html .single-post-wrapper .fl-prevnext-contain .fl-next-post-contain a span.fl-nextprev-title,
+html .single-post-wrapper .fl-prevnext-contain .fl-prev-post-contain a {
+    font-size: 16px
+}
+
+html .fl-blog-post-div .post-style-default-two .fl-post--item .post-right-content .post-btn-read-more a {
+    text-transform: uppercase
+}
+
+.page-id-146 .fl--header {
+    border-bottom: 1px solid #ddd
+}
+
+#pixad-listing .fl-autos-post-pagination #fl-ajax-load-more-pagination {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700
+}
+
+#pixad-listing.list .fl-autos-post-pagination {
+    margin: -5px 0 10px 0
+}
+
+.fl-full-screen-product-container.product_style_one .images .fl-mail-slider-wrapper .fl--product-slider .slick-slide {
+    border: 1px solid #ddd
+}
+
+html .fl-full-screen-product-container.product_style_one .images .fl--product-carousel .slick-slide {
+    background: #fff;
+    border: 1px solid #ddd
+}
+
+html .woocommerce div.product .woocommerce-tabs ul.tabs::before {
+    border-bottom: 1px solid #ddd
+}
+
+.sidebar:not(.cars-sidebar) ul li,
+.tm-holder-function .sidebar:not(.cars-sidebar),
+.tm-holder-function .sidebar:not(.cars-sidebar) ul li a {
+    font-size: 15px;
+    margin-bottom: 7px
+}
+
+html .sidebar:not(.cars-sidebar) .widget_meta ul li {
+    padding-bottom: 0
+}
+
+html .sidebar .widget_calendar {
+    margin-bottom: 30px !important
+}
+
+.tm-holder-function .sidebar:not(.cars-sidebar) .widget_archive ul li a {
+    font-size: 15px;
+    line-height: 1
+}
+
+html .widget.widget_text {
+    margin-bottom: 40px !important
+}
+
+footer .widget.widget_text {
+    margin-bottom: 15px !important
+}
+
+footer .footer-widget-area .widget .widget--title {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    font-weight: 100
+}
+
+.footer-widget-area:first-child .custom-html-widget {
+    color: #fff;
+    opacity: .8
+}
+
+footer .footer-widget-area .widget p,
+footer ul li a {
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease
+}
+
+footer ul li a:hover {
+    opacity: 1;
+    color: #fff
+}
+
+html .footer-widget-area .widget_nav_menu ul li:first-child {
+    padding-top: 5px
+}
+
+html .widget_text .textwidget ul {
+    margin-top: -10px
+}
+
+html .widget_text .textwidget ul li {
+    margin-bottom: 10px
+}
+
+html .footer-widget-area .social-widget ul li {
+    margin-right: 3px
+}
+
+html .fl--mobile-menu li a {
+    font-size: 13px;
+    font-weight: 600
+}
+
+html .fl--mobile-menu li .sub-menu li a {
+    font-size: 12px;
+    padding-left: 33px !important
+}
+
+html .fl--mobile-menu .fl-custom-icon-cancel-5:before {
+    color: red
+}
+
+html .fl-menu-flipper-icon .fl-front-content i:before {
+    color: #d3d126
+}
+
+.fl--mobile-menu-navigation-wrapper .fl-close-sidebar-icon {
+    color: #005383
+}
+
+.fl--mobile-menu-navigation-wrapper .fl-close-sidebar-icon:before {
+    top: 8px;
+    font-size: 22px;
+    left: -1px
+}
+
+.wpcf7 input[type=email],
+.wpcf7 input[type=tel],
+.wpcf7 input[type=text],
+.wpcf7 input[type=url] {
+    margin-bottom: 7px
+}
+
+.wpcf7 form.wpcf7-form input[type=text] {
+    color: #7b7d7f !important;
+    font-size: 12px !important;
+    padding-left: 17px !important
+}
+
+.wpcf7 .wpcf7-select {
+    margin-bottom: 7px
+}
+
+html .widget_text .textwidget ul li:before {
+    content: "\f111";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 7px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-right: 9px
+}
+
+html textarea {
+    margin-bottom: 5px
+}
+
+html .widget_text .textwidget ul li:hover:before {
+    color: #d3d126 !important
+}
+
+footer #custom_html-2 {
+    margin-top: 0 !important
+}
+
+.footer-widget-area:first-child .custom-html-widget .bestbus-icon-icon1 {
+    color: #d3d126 !important;
+    font-size: 18px;
+    margin-right: 5px
+}
+
+.fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .fl-autos-equip .fl-equip:before {
+    transition: all .3s ease
+}
+
+.fl-recent_auto-isotope .fl-autos-grid-one:hover .slider-grid__inner .tmpl-gray-footer .fl-autos-equip .fl-equip:before {
+    color: #d3d126 !important
+}
+
+html .footer-widget-area .social-widget ul li a {
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 34px;
+    background-color: #2c2c2c
+}
+
+footer .widget.widget_mc4wp_form_widget {
+    margin-top: 0 !important
+}
+
+#fl_header_info_widget-2 {
+    margin-top: 0
+}
+
+html .widget_text .textwidget {
+    padding: 0 0
+}
+
+.tm-holder-function .widget_recent_comments .recentcomments .comment-author-link a {
+    text-transform: none;
+    color: inherit !important;
+    font-weight: 700
+}
+
+.tm-holder-function .widget_tag_cloud .tagcloud a:hover {
+    background-color: #d3d126 !important
+}
+
+html footer.fl--footer .bottom-content-footer .fl-copyright--inner a {
+    opacity: .7;
+    transition: opacity .3s ease
+}
+
+html footer.fl--footer .fl-footer-top-contain {
+    display: block;
+    overflow: hidden
+}
+
+html footer.fl--footer .fl--subscribe-contain {
+    float: right
+}
+
+html footer.fl--footer .fl-footer-top-contain img {
+    float: left
+}
+
+html footer.fl--footer .bottom-content-footer .fl-copyright--inner a:hover {
+    opacity: 1;
+    text-decoration: none;
+    border-bottom: 0
+}
+
+.tm-holder-function .widget_rss ul li .rss-date {
+    color: #6c6c6c;
+    font-style: italic;
+    margin-top: -10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    display: inline-block
+}
+
+.tm-holder-function .widget_rss ul li .rsswidget {
+    color: #222 !important;
+    display: block;
+    margin-bottom: 0 !important;
+    transition: opacity .3s ease;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.tm-holder-function .widget_rss ul li {
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 15px
+}
+
+.widget_rss cite {
+    text-align: right;
+    display: inline-block;
+    width: 100%
+}
+
+.tm-holder-function .widget_rss ul li .rsswidget:hover {
+    color: #d3d126 !important;
+    opacity: 1 !important
+}
+
+.tm-holder-function .widget_archive ul li span {
+    color: #d3d126;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px
+}
+
+.tm-holder-function .widget_recent_comments .recentcomments a:hover {
+    color: #d3d126 !important
+}
+
+.sidebar:not(.cars-sidebar) .widget_pages ul li.page_item .children li {
+    margin-bottom: 0;
+    line-height: 2
+}
+
+html .sidebar:not(.cars-sidebar) .widget_categories ul li.cat-item .fl-categories-post-count {
+    float: right
+}
+
+.tm-holder-function .widget_recent_entries ul li a:hover {
+    border-bottom: 0
+}
+
+html blockquote {
+    background-color: #f4f8fb;
+    padding: 25px
+}
+
+html blockquote:after {
+    bottom: 10px;
+    right: 25px
+}
+
+.sidebar:not(.cars-sidebar) .widget .fl-sidebar-title-contain .widget-title a {
+    color: #222
+}
+
+.widget-title .rss-widget-icon {
+    margin-right: 7px;
+    margin-top: -2px
+}
+
+html .sidebar:not(.cars-sidebar) .widget.widget_text select {
+    margin: 30px 0
+}
+
+html .wp-block-image .aligncenter > figcaption,
+html .wp-block-image .alignleft > figcaption,
+html .wp-block-image .alignright > figcaption,
+html .wp-block-image.is-resized > figcaption {
+    display: block
+}
+
+.tm-holder-function .wp-block-image figcaption,
+.tm-holder-function .wp-block-quote cite,
+.tm-holder-function .wp-caption-text,
+.tm-holder-function figcaption {
+    color: #6d6d6d
+}
+
+.tm-holder-function .wp-block-image figcaption a,
+.tm-holder-function .wp-caption-text a,
+.tm-holder-function figcaption a {
+    color: inherit;
+    text-decoration: underline !important
+}
+
+.tm-holder-function .wp-block-image figcaption a:hover,
+.tm-holder-function .wp-caption-text a:hover,
+.tm-holder-function figcaption a:hover {
+    text-decoration: none !important
+}
+
+.tm-holder-function .wp-block-image .aligncenter img {
+    margin: 0 auto;
+    display: block
+}
+
+.tm-holder-function .wp-block-image .aligncenter {
+    text-align: center
+}
+
+.tm-holder-function .wp-block-image .alignleft {
+    float: left;
+    margin: 10px 20px 20px 0
+}
+
+.tm-holder-function .wp-block-image .alignright {
+    float: right;
+    margin: 5px 0 20px 20px
+}
+
+.tm-holder-function .wp-block-button:not(.is-style-outline) .wp-block-button__link {
+    background-color: #222;
+    transition: all .2s ease-in;
+    text-decoration: none;
+}
+
+.tm-holder-function .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
+    background-color: #d3d126
+}
+
+.tm-holder-function .wp-block-button.is-style-outline .wp-block-button__link {
+    border-color: #222;
+    color: #222;
+    transition: all .2s ease-in
+}
+
+.tm-holder-function .wp-block-button.is-style-outline .wp-block-button__link:hover {
+    border-color: #d3d126;
+    color: #d3d126
+}
+
+.tm-holder-function .wp-block-button:not(.is-style-outline) a.wp-block-button__link {
+    color: #fff !important
+}
+
+.tm-holder-function .wp-block-button__link a {
+    text-decoration: underline
+}
+
+.tm-holder-function .wp-block-cover,
+.tm-holder-function .wp-block-cover-image {
+    position: relative;
+    background-color: #000;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.tm-holder-function .wp-block-cover.has-background-dim,
+.wp-block-media-text {
+    margin-bottom: 1.1rem
+}
+
+.wp-block-quote:before,
+blockquote:before {
+    display: none;
+}
+
+
+.wp-block-gallery .blocks-gallery-item figcaption {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+
+.wp-block-latest-posts.is-grid li:before,
+.wp-block-latest-posts__list.has-dates.wp-block-latest-posts li:before {
+    display: none !important;
+}
+
+
+html .wp-block-latest-posts.is-grid,
+.wp-block-latest-posts.wp-block-latest-posts__list {
+    padding: 0;
+    margin: 0;
+}
+
+
+.wp-block-quote.has-text-align-right.extraclass {
+    padding-right: 100px;
+}
+
+.tm-holder-function .wp-block-cover-text a {
+    color: #fff !important
+}
+
+.tm-holder-function .wp-block-cover-text a:hover {
+    color: #fff !important;
+    text-decoration: underline !important
+}
+
+
+.fl-blog-post-div .inner_content .wp-block-cover-text a:link {
+    color: #fff !important
+}
+
+.tm-holder-function .wp-block-gallery.columns-2.is-cropped,
+.tm-holder-function .wp-block-gallery.columns-3.is-cropped,
+.tm-holder-function .wp-block-gallery.columns-4.is-cropped,
+.tm-holder-function .wp-block-gallery.columns-5.is-cropped,
+.tm-holder-function .wp-block-gallery.columns-6.is-cropped,
+.tm-holder-function .wp-block-gallery.columns-7.is-cropped,
+.tm-holder-function .wp-block-gallery.columns-8.is-cropped {
+    margin-bottom: 1.1rem
+}
+
+.tm-holder-function .blocks-gallery-grid + .blocks-gallery-caption {
+    position: relative;
+    top: -10px
+}
+
+.fl-page-heading .fl--page-header .header-title {
+    max-width: 746px;
+    margin: 0 auto
+}
+
+.fl-pages-inner-pagination {
+    margin-top: 25px;
+}
+
+
+
+
+.tm-holder-function blockquote {
+    padding: 95px 50px 50px !important
+}
+
+.tm-holder-function blockquote p {
+    text-align: inherit;
+    font-size: 19px;
+    line-height: 32px
+}
+
+.tm-holder-function .wp-block-quote {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.tm-holder-function .wp-block-quote.has-text-align-right.extraclass {
+    border-left: 6px solid #fbedd0;
+    padding: 50px !important;
+    padding-right: 100px !important;
+}
+
+.tm-holder-function .wp-block-quote.has-text-align-right.extraclass:before {
+    display: none
+}
+
+.tm-holder-function .wp-block-pullquote.is-style-solid-color blockquote {
+    background: 0 0;
+    text-align: center;
+    padding-top: 80px !important
+}
+
+.tm-holder-function .wp-block-pullquote.is-style-solid-color {
+    padding: 0 !important
+}
+
+.tm-holder-function .blocks-gallery-item__caption {
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    max-height: 100%;
+    overflow: auto;
+    padding: 40px 10px 9px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3) 70%, transparent)
+}
+
+.tm-holder-function .has-medium-font-size {
+    font-size: 20px;
+    line-height: 1.2
+}
+
+.tm-holder-function p.has-large-font-size {
+    font-size: 36px;
+    line-height: 1.3
+}
+
+.tm-holder-function .wp-block-image.size-full.is-style-circle-mask {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.tm-holder-function .wp-block-file {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.tm-holder-function .wp-block-file .wp-block-file__button {
+    background-color: #d3d126
+}
+
+.tm-holder-function .wp-block-tag-cloud a:hover {
+    color: #fff !important;
+    background: #d3d126 !important
+}
+
+.tm-holder-function ul.wp-block-archives li a:hover {
+    color: #8a9536
+}
+
+.tm-holder-function .fl-content ul.wp-block-archives li span {
+    position: relative;
+    color: #d3d126;
+    font-weight: 400
+}
+
+.tm-holder-function ul.wp-block-archives li {
+    border: 0
+}
+
+.tm-holder-function .wp-block-archives.wp-block-archives-dropdown,
+.tm-holder-function .wp-block-categories-dropdown {
+    margin-bottom: 50px;
+    margin-top: 20px
+}
+
+.tm-holder-function .fl-content .fl-comment-moderation table thead,
+.tm-holder-function .fl-content table thead {
+    background: 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .08)
+}
+
+.tm-holder-function .fl-content .wp-block-calendar table th {
+    font-weight: 700;
+    background: 0 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 1em;
+    background: #eee;
+    border-color: #e2e4e7 !important
+}
+
+.tm-holder-function .fl-content .wp-block-calendar td:first-child,
+.tm-holder-function .fl-content .wp-block-calendar th:first-child {
+    border-color: #eee
+}
+
+.tm-holder-function .fl-content .wp-block-calendar td {
+    text-align: center
+}
+
+.tm-holder-function .fl-content table tfoot td {
+    border-right: 0
+}
+
+.tm-holder-function .wp-block-calendar caption {
+    caption-side: top;
+    background: #222;
+    font-weight: 600;
+    padding: .5em;
+    text-align: center;
+    margin-bottom: 1px;
+    color: #fff;
+    font-size: 18px
+}
+
+.tm-holder-function .fl-content ol.wp-block-latest-comments {
+    margin: 20px 0;
+    padding-left: 15px
+}
+
+.tm-holder-function .fl-content .wp-block-latest-posts {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 50px
+}
+
+.tm-holder-function .fl-content .wp-block-latest-posts li:before {
+    display: none
+}
+
+.tm-holder-function .fl-content .wp-block-latest-posts.is-grid li {
+    border-top: 2px solid #eee;
+    margin-top: 1rem;
+    padding-top: 1rem
+}
+
+.tm-holder-function .fl-content .wp-block-latest-posts wp-block-latest-posts__list.is-grid columns-3 {
+    margin: 32px 0
+}
+
+.tm-holder-function .fl-content .wp-block-rss__item-title a:hover,
+.tm-holder-function .fl-content ul.wp-block-latest-posts li a:hover {
+    color: inherit;
+    text-decoration: underline !important
+}
+
+.tm-holder-function .fl-content .wp-block-search,
+.tm-holder-function .fl-content .wp-block-tag-cloud {
+    margin: 10px 0 50px 0
+}
+
+.tm-holder-function .wp-block-tag-cloud a {
+    background: #d3d126;
+    transition: all .3s;
+    border-radius: 3px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 13px !important;
+    color: #fff
+}
+
+.tm-holder-function .wp-block-tag-cloud a {
+    background: #d3d126;
+    transition: all .3s;
+    border-radius: 3px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 13px !important;
+    color: #fff !important
+}
+
+.fl-comment-moderation table thead,
+html .inner_content table thead {
+    border-bottom: 0
+}
+
+.sidebar:not(.cars-sidebar) .widget a {
+    font-size: 15px
+}
+
+.tm-holder-function .post-page-numbers.current .page-numbers {
+    border-color: #d3d126 !important;
+    background: #d3d126;
+    color: #fff !important
+}
+
+.wp-block-group__inner-container {
+    padding: 25px
+}
+
+.sidebar .wp-block-group__inner-container {
+    padding: 0
+}
+
+.post-page-numbers .page-numbers {
+    padding: 5px 10px;
+    border: 2px #eee solid;
+    margin: 0 5px;
+    letter-spacing: -1px;
+    color: inherit !important
+}
+
+.post-page-numbers .page-numbers,
+.post-page-numbers .page-numbers a {
+    color: #222 !important
+}
+
+pre.wp-block-code code {
+    background: 0 0
+}
+
+.tm-holder-function .fl-content code {
+    background: rgba(0, 0, 0, .075);
+    border-radius: .2rem
+}
+
+.tm-holder-function .fl-content .wp-block-code code {
+    background: 0 0
+}
+
+.tm-holder-function .fl-comment-moderation pre,
+.tm-holder-function .fl-content pre {
+    margin: 20px 0
+}
+
+.tm-holder-function .fl-content h1,
+.tm-holder-function .fl-content h2,
+.tm-holder-function .fl-content h3,
+.tm-holder-function .fl-content h4,
+.tm-holder-function .fl-content h5,
+.tm-holder-function .fl-content h6 {
+    margin-bottom: 1.25rem;
+    line-height: 1.1;
+    margin-top: 1.25rem
+}
+
+.fl-comment-moderation table td,
+.tm-holder-function .fl-comment-moderation table th,
+.tm-holder-function .inner_content table td,
+.tm-holder-function .inner_content table th {
+    line-height: 2.8;
+    vertical-align: middle;
+    padding: 10px 12px;
+    border: 1px solid #eee
+}
+
+.tm-holder-function .inner_content .wp-block-table.is-style-stripes td,
+.tm-holder-function .inner_content .wp-block-table.is-style-stripes th {
+    border-color: #eee
+}
+
+.tm-holder-function .fl-content .fl-comment-moderation table thead tr th,
+.tm-holder-function .fl-content table thead tr th {
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 700
+}
+
+.tm-holder-function dd {
+    display: block;
+    margin-inline-start: 40px
+}
+
+.tm-holder-function .fl-comment-moderation address,
+.tm-holder-function .fl-content address {
+    display: inline-block;
+    padding: 0;
+    background: 0 0;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-style: italic
+}
+
+.tm-holder-function .fl-comment-moderation address,
+.tm-holder-function .inner_content address {
+    display: inline-block;
+    padding: 20px;
+    background: 0 0;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-style: italic;
+    border: 1px solid #222
+}
+
+.tm-holder-function .fl-comment-moderation img {
+    display: block
+}
+
+code,
+kbd,
+tt,
+var {
+    padding: 3px 6px;
+    font-size: 90%;
+    color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.pingback .fl-comment-author-name,
+.trackback .fl-comment-author-name {
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+
+.pingback .fl-comments--reply-wrapper,
+.trackback .fl-comments--reply-wrapper {
+    padding-bottom: 0 !important;
+    margin-bottom: 10px !important
+}
+
+html .fl-comments-container .fl-comments-list .pingback .fl-comment-meta .fl-comments--reply-wrapper .fl-comment--time a {
+    color: #d3d126 !important
+}
+
+html .fl-comments-container .fl-comments-list .pingback .fl-comment-meta .fl-comments--reply-wrapper .fl-comment--time {
+    font-size: 15px
+}
+
+.tm-holder-function blockquote p cite a {
+    font-size: 16px
+}
+
+#single-pixad-autos-modal .modal-dialog {
+    z-index: 9999
+}
+
+#single-pixad-autos-modal .fl-dealer-form .textarea-form-wrapper textarea {
+    width: 100%
+}
+
+#single-pixad-autos-modal button.submit-comment {
+    text-transform: none;
+    color: #222;
+    background-color: #d3d126 !important;
+    padding: 20px;
+    border: 0;
+    border-radius: 0;
+    margin-top: 30px;
+    float: right;
+    font-weight: 600;
+    font-size: 16px
+}
+
+#single-pixad-autos-modal button.submit-comment i {
+    display: none
+}
+
+aside .wp-block-latest-comments__comment {
+    line-height: 1.7
+}
+
+aside ol.wp-block-latest-comments .wp-block-latest-comments__comment-meta {
+    color: #222
+}
+
+ol.wp-block-latest-comments .wp-block-latest-comments__comment-author {
+    color: #222;
+    font-weight: 700
+}
+
+ol.wp-block-latest-comments .wp-block-latest-comments__comment-link {
+    text-decoration: underline
+}
+
+html .sidebar:not(.cars-sidebar) .widget_block ul.wp-block-categories li.cat-item {
+    margin-bottom: 0
+}
+
+.widget_nav_menu .menu .sub-nav-item {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    line-height: 2
+}
+
+html .sidebar:not(.cars-sidebar) .widget_pages ul li.page_item a {
+    color: #222
+}
+
+.sidebar:not(.cars-sidebar) .widget_nav_menu ul li.nav-item a {
+    color: #222 !important
+}
+
+.wp-block-tag-cloud a {
+    text-decoration: none !important
+}
+
+.wp-block-rss li,
+.wp-block-rss ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important
+}
+
+.wp-block-rss li:before {
+    display: none !important
+}
+
+.wp-block-rss.wp-block-rss {
+    margin-left: 0
+}
+
+.wp-block-search .wp-block-search__button {
+    background: #222;
+    border: 1px solid #ccc;
+    padding: .375em .625em;
+    color: #fff;
+    margin-left: .625em;
+    word-break: normal;
+    border: 0;
+    height: 44px;
+    padding: 0 20px
+}
+
+comments__comment-meta .wp-block-latest-comments__comment-author {
+    color: #222 !important;
+    text-decoration: none
+}
+
+html ol.wp-block-latest-comments .wp-block-latest-comments__comment-meta {
+    color: #222
+}
+
+#wp-calendar td,
+#wp-calendar th {
+    text-align: center
+}
+
+.test{
+    width: 40vw;
+}
+
+.fa-solid.white{
+    color: #fff;
+}
