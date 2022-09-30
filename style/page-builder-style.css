@@ -2047,7 +2047,7 @@
     display: table-cell;
     vertical-align: middle; }
 .fl-icon-box .fl-icon-box-style-two {
-    display: flex;
+    /*display: flex;*/
     transition: all .3s ease-in-out;
     padding: 40px 0;
     padding-right: 40px; }

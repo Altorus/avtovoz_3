@@ -160,3 +160,8 @@ h6, .h6 {
 #fl-page--preloader .fl-top-progress .fl-loader_left, #fl-page--preloader .fl-top-progress .fl-loader_right, #fl-page--preloader .fl--preloader-progress-bar span {
     background-color: #d3d126 !important;
 }
+
+.vc_section[data-vc-full-width]>.vc_row{
+    display: flex;
+    justify-content: center;
+}
