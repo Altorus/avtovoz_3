@@ -178,3 +178,12 @@ h6, .h6 {
     background-color: #fff;
     color: #141404;
 }
+
+.a-custom{
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.a-custom:hover{
+    color: #DBD700;
+}
