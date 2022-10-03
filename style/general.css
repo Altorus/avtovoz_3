@@ -52,7 +52,7 @@ html {
     -ms-text-size-adjust: 100%; }
 
 body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, ul, li, ol, a, em, img, strong, fieldset, form, label, article, aside,
+pre, a, em, img, strong, fieldset, form, label, article, aside,
 details, figcaption, figure, footer, header, hgroup, nav, section {
     margin: 0;
     padding: 0;
@@ -62,7 +62,8 @@ details, figcaption, figure, footer, header, hgroup, nav, section {
     font-style: inherit;
     font-family: inherit;
     vertical-align: baseline;
-    list-style: none; }
+    list-style: none; 
+}
 
 :focus {
     outline: 0; }
@@ -10612,3 +10613,7 @@ min-width 768px
         margin-top: 33px; } }
 
 /*# sourceMappingURL=general.css.map */
+
+footer ul{
+    list-style: none;
+}

@@ -187,3 +187,7 @@ h6, .h6 {
 .a-custom:hover{
     color: #DBD700;
 }
+
+.a-custom.black{
+    color: #111;
+}
