@@ -426,162 +426,32 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="fl-vc-vehicle-search container">
-                                                        <!--
-                                                                                                                <form action="//bestbus.pro-theme.com/vehicle-listing/"
-                                                              method="get" id="findCarNowForm" class="search_style_two">
-
-
-                                                            <div class="vc-auto-search">
-                                                                <div class="fl-auto-search-bodies">
-                                                                    <ul class="auto-tax-icons"></ul>
-                                                                    <input id="fl-auto-categories" name="body"
-                                                                           type="hidden"/>
-                                                                    <script>
-                                                                        jQuery.noConflict()(function ($) {
-                                                                            jQuery("li.fl-cat-image-auto").on("click", function () {
-                                                                                jQuery("li.fl-cat-image-auto").removeClass("active");
-                                                                                jQuery(this).addClass("active");
-                                                                                jQuery("#fl-auto-categories").val(jQuery(this).data("value"));
-                                                                            });
-
-                                                                        });
-                                                                    </script>
+                                                    <div class="container">
+                                                        <div class="wrapper">
+                                                            <div class="h2">Форма заявки</div>
+                                                            <div class="h6">Заполните форму для заказа автовоза</div>
+                                                            <nav class="tabs">
+                                                              <div class="selector"></div>
+                                                              <a href="#" class="active"><i class="fa-solid fa-car"></i>Тип транспорта</a>
+                                                              <a href="#"><i class="fa-solid fa-copyright"></i>Модель и марка</a>
+                                                              <a href="#"><i class="fa-solid fa-location-dot"></i>Информация о перевозке</a>
+                                                              <a href="#"><i class="fa-solid fa-credit-card"></i>Стоимость перевозки</a>
+                                                            </nav>
+                                                            <form action="#" method="post">
+                                                                <div class="tab-item" data-tab="1">
+                                                                    1
                                                                 </div>
-                                                                <div class="select select_mod-a jelect fl_location">
-                                                                    <span class="fl-form-title">Choose A Pickup Location</span>
-
-                                                                    <input data-type="jelect" data-field="make"
-                                                                           name="pick_location" value=""
-                                                                           data-text="imagemin" type="text"
-                                                                           class="jelect-input">
-                                                                    <div tabindex="0" role="button"
-                                                                         class="jelect-current">Choose A Pickup Location
-                                                                    </div>
-                                                                    <ul class="jelect-options">
-
-                                                                        <li data-val="District 1" class="jelect-option">
-                                                                            District 1
-                                                                        </li>
-                                                                        <li data-val="District 2" class="jelect-option">
-                                                                            District 2
-                                                                        </li>
-                                                                        <li data-val="District 3" class="jelect-option">
-                                                                            District 3
-                                                                        </li>
-                                                                    </ul>
+                                                                <div class="tab-item" data-tab="2">
+                                                                    2
                                                                 </div>
-
-                                                                <div class="select select_mod-a jelect fl_booking_time_start">
-                                                                    <div class="home-search-label fl-font-style-semi-bolt fl-form-title">
-                                                                        Pickup Date
-                                                                    </div>
-                                                                    <input data-type="jelect" data-field="time-start"
-                                                                           id="pixad-time-start" name="pixad-time-start"
-                                                                           data-text="imagemin" type="text"
-                                                                           class="pix-input-time" value="Select date">
+                                                                <div class="tab-item" data-tab="3">
+                                                                    3
                                                                 </div>
-
-
-                                                                <div class="select select_mod-a jelect pixad-makes-models-select col-4">
-                                                                    <span class="fl-form-title">Select Make</span>
-                                                                    <input data-type="jelect" data-field="make"
-                                                                           id="ajax-make" name="make" value=""
-                                                                           data-text="imagemin" type="text"
-                                                                           class="jelect-input">
-                                                                    <div tabindex="0" role="button"
-                                                                         class="jelect-current">All Makes
-                                                                    </div>
-                                                                    <ul class="jelect-options">
-                                                                        <li data-val="audi" class="jelect-option ">
-                                                                            Audi
-                                                                        </li>
-                                                                        <li data-val="bmw" class="jelect-option ">BMW
-                                                                        </li>
-                                                                        <li data-val="ferrari" class="jelect-option ">
-                                                                            Ferrari
-                                                                        </li>
-                                                                        <li data-val="ford" class="jelect-option ">
-                                                                            Ford
-                                                                        </li>
-                                                                        <li data-val="hyundai" class="jelect-option ">
-                                                                            Hyundai
-                                                                        </li>
-                                                                        <li data-val="mercedes" class="jelect-option ">
-                                                                            Mersedes
-                                                                        </li>
-                                                                        <li data-val="mitsubishi"
-                                                                            class="jelect-option ">Mitsubishi
-                                                                        </li>
-                                                                        <li data-val="peugeot" class="jelect-option ">
-                                                                            Peugeot
-                                                                        </li>
-                                                                        <li data-val="toyota" class="jelect-option ">
-                                                                            Toyota
-                                                                        </li>
-                                                                    </ul>
+                                                                <div class="tab-item" data-tab="4">
+                                                                    4
                                                                 </div>
-
-
-                                                                <div class="fl-return-same-contain">
-                                                                    <input type="checkbox" name="return-pickup">
-                                                                    <label>Return to same pickup location</label>
-                                                                </div>
-                                                                <div class="btn-bg-contain">
-                                                                    <span class="btn-bg"></span>
-                                                                </div>
-                                                                <div class="btn">
-                                                                    <div class="btn-filter wrap__btn-skew-r js-filter">
-                                                                        <button type="button"
-                                                                                onclick="findCarNowVc(); return false;"
-                                                                                class="btn-skew-r btn-effect"><span
-                                                                                class="btn-skew-r__inner">Browse Vehicles<i
-                                                                                class="bestbus-icon-arrow"
-                                                                                aria-hidden="true"></i></span></button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                        -->
-                                                        Здесь будет форма
-
-                                                        <script type="text/javascript">
-                                                            function findCarNowVc() {
-
-                                                                /*PRICE*/
-                                                                var _price_from = jQuery('#slider-price_min').val();
-                                                                if (_price_from) {
-                                                                    _price_from = _price_from.replace(/\D/g, "");
-                                                                }
-
-
-                                                                var _price_to = jQuery('#slider-price_max').val();
-                                                                if (_price_to) {
-                                                                    _price_to = _price_to.replace(/\D/g, "");
-                                                                }
-                                                                jQuery('#slider-price_total').val(_price_from + "," + _price_to);
-
-
-                                                                /*MILEAGE*/
-                                                                var mileage_from = jQuery('#slider-mileage_min').val();
-                                                                var mileage_to = jQuery('#slider-mileage_max').val();
-                                                                jQuery('#pix-max-slider-mileage_total').val(mileage_from + "," + mileage_to);
-
-                                                                /*YEAR*/
-                                                                var year_from = jQuery('#slider-year_min').val();
-                                                                var year_to = jQuery('#slider-year_max').val();
-                                                                jQuery('#pix-max-slider-year_total').val(year_from + "," + year_to);
-
-                                                                /*ENGINE*/
-                                                                var engine_from = jQuery('#slider-engine_min').val();
-                                                                var engine_to = jQuery('#slider-engine_max').val();
-                                                                jQuery('#pix-max-slider-engine_total').val(engine_from + "," + engine_to);
-
-
-                                                                jQuery('#findCarNowForm').submit();
-
-                                                            }
-                                                        </script>
+                                                            </form>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
