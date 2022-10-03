@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="//gmpg.org/xfn/11" />
+    <title>Bestbus &#8211; Transport Listing Theme</title>
+    <meta name="robots" content="max-image-preview:large" />
+
+    <link
+      rel="stylesheet"
+      id="rs-plugin-settings-css"
+      href="style/revolutionSlider.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="dist/css/Bootstrap.css" />
+    <link rel="stylesheet" href="style/default.css" />
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/page-builder-style.css" />
+    <link rel="stylesheet" href="style/preloader.min.css" />
+    <link rel="stylesheet" href="style/js_composer.min.css" />
+    <!--    edited-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!--    <script src='//bestbus.pro-theme.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'-->
+    <!--            id='jquery-migrate-js'></script>-->
+    <script src="js/rbtools.min.js"></script>
+    <script src="js/rs6.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/68a7244d01.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="icon"
+      href="//bestbus.pro-theme.com/wp-content/uploads/2020/02/cropped-logo-w-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="//bestbus.pro-theme.com/wp-content/uploads/2020/02/cropped-logo-w-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="//bestbus.pro-theme.com/wp-content/uploads/2020/02/cropped-logo-w-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="//bestbus.pro-theme.com/wp-content/uploads/2020/02/cropped-logo-w-270x270.png"
+    />
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/vc_custom.css" />
+    <link rel="stylesheet" href="style/vc_shortcodes-custom.css" />
+  </head>
+  <body
+    class="home page-template-default page page-id-19248 theme-bestbus woocommerce-no-js wpb-js-composer js-comp-ver-6.2.0 vc_responsive"
+  >
+    <!-- Модальное окно -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Заявка на обратный звонок
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Закрыть"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Номер телефона</label>
+                <input type="phone" class="form-control" id="phone" />
+              </div>
+              <button type="submit" class="btn btn-primary">Отправить</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Закрыть
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main holder -->
+    <div id="fl-main-holder" class="tm_main">
+      <div id="fl-page--preloader">
+        <span class="fl-top-progress">
+          <span class="fl-loader_right"></span>
+          <span class="fl-loader_left"></span>
+        </span>
+        <div class="fl-top-background-preloader"></div>
+        <div class="fl-bottom-background-preloader"></div>
+        <div class="fl--preloader-progress-bar"><span></span></div>
+        <div class="fl-preloader--text-percent">
+          <p class="fl--preloader-percent fl-text-title-style">0%</p>
+        </div>
+      </div>
+      <!--Header Start-->
+      <header class="fl--header fl-header--navigation cf" id="fl-header">
+        <div class="fl-bottom-header-content container_wide">
+          <div class="fl-navigation-container cf">
+            <!-- Start Logo-->
+            <div class="fl--logo-container">
+              <a href="//bestbus.pro-theme.com/">
+                <img
+                  src="//bestbus.pro-theme.com/wp-content/uploads/2020/02/logo2-1.png"
+                  alt="logotype"
+                  class="img-logotype-dark"
+                />
+              </a>
+            </div>
+            <!--Logo End-->
+
+            <!-- Nav Menu Start-->
+            <nav class="fl-mega-menu nav-menu">
+              <ul id="menu-main-menu-one" class="menu">
+                <li class="nav-item menu-item-depth-0 current-menu-item">
+                  <a
+                    href="index.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Главная</a
+                  >
+                </li>
+                <li class="nav-item menu-item-depth-0 has-submenu">
+                  <a
+                    href="text-page.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Услуги</a
+                  >
+                  <div class="sub-nav">
+                    <ul class="menu-depth-1 sub-menu sub-nav-group">
+                      <li class="sub-nav-item menu-item-depth-1">
+                        <a href="#" class="menu-link sub-menu-link"
+                          ><i class="disable"></i>Listing Page</a
+                        >
+                      </li>
+                      <li class="sub-nav-item menu-item-depth-1">
+                        <a href="#" class="menu-link sub-menu-link"
+                          ><i class="disable"></i>Booking Car</a
+                        >
+                      </li>
+                      <li class="sub-nav-item menu-item-depth-1">
+                        <a href="#" class="menu-link sub-menu-link"
+                          ><i class="disable"></i>Single Form</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item menu-item-depth-0">
+                  <a
+                    href="about.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>О компании</a
+                  >
+                </li>
+                <li class="nav-item menu-item-depth-0 current-menu-item">
+                  <a
+                    href="directions.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Направления</a
+                  >
+                </li>
+                <li class="nav-item menu-item-depth-0">
+                  <a
+                    href="contancts.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="header-btn">
+              <i
+                class="bestbus-icon-icon3 fl-secondary-color"
+                aria-hidden="true"
+              ></i>
+              <div class="fl-header-phone-container">
+                <span class="fl-header-phone-text">Связаться с нами</span>
+                <a
+                  class="fl-header-phone fl-text-title-style"
+                  href="tel://+78004441214"
+                  >8 (800) 444-12-14</a
+                >
+              </div>
+            </div>
+            <div class="header-support-nav-online">
+              <div class="fl--subscribe-input">
+                <a
+                  class="btn-custom"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Узнать стоимость перевозки</a
+                >
+              </div>
+            </div>
+            <!-- Nav Menu End-->
+            <div class="fl--navigation-icon-container">
+              <!--Mobile menu bars-->
+              <div class="fl--hamburger-menu closed header-icon">
+                <div class="fl-flipper-icon">
+                  <div class="fl-front-content">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="fl-back-content">
+                    <span class="fl-custom-icon-plus-symbol"></span>
+                  </div>
+                </div>
+              </div>
+              <!--Mobile menu bars end-->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--Header End-->
+
+      <div class="fl-page-heading">
+        <div class="heading-mask">
+          <div
+            class="fl-mask-bg-img"
+            style="
+              background-image: url(images/155156651-White-transporters-vans-in-a-row-on-black-background.jpg);
+            "
+          ></div>
+        </div>
+        <div class="fl--page-header content_header container">
+          <div class="h1 header-title">О компании</div>
+            <div class="breadcrubs-block">
+                <ul>
+                    <li>
+                      <span
+                        ><a href="index.html" class="home">
+                          Главная</a
+                        ></span>
+                    </li>
+                    <li><a href="directions.html">Напрваления</a></li>
+                  </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="h1">
+            Перевезти автомобиль автовозом по России
+        </div>
+        <div class="row">
+            <form action="#" method="post" class="custom-form">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div>
+                            <label for="from" class="form-label">Откуда</label>
+                            <input type="text" class="form-control" id="from">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <label for="to" class="form-label">Куда</label>
+                            <input type="text" class="form-control" id="to">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary">Поиск</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                Лид. форма
+            </div>
+            <div class="col-6">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36cdc69fbc4c6e35fc15ec4105aa1389fccc1fe949eb917d9115e460b653d73c&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Все направления</h2>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Откуда-куда</th>
+                    <th scope="col">Стоимость</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                  <tr>
+                    <th>Перевозка автомобиля Калининград - Новосибирск</th>
+                    <td>от 70000 Р</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+      </div>
+
+
+
+      <!--Footer Start-->
+
+      <footer class="fl--footer fl-dark-bg">
+        <div class="footer__decor"></div>
+        <div class="fl-footer-top-contain container fl_footer_border">
+          <a href="//bestbus.pro-theme.com/">
+            <img
+              src="//bestbus.pro-theme.com/wp-content/uploads/2020/02/logo2.png"
+              alt="footer_logo"
+              class="fl_footer_logo"
+            />
+          </a>
+          <div class="fl--subscribe-contain">
+            <div class="fl--subscribe">
+              <div class="fl--subscribe-input">
+                <a
+                  class="btn-custom"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Узнать стоимость перевозки</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-content-footer">
+          <div class="container">
+            <div class="row footer-sidebar-wrapper">
+              <div class="footer-widget-area col-lg-3 col-md-6">
+                <div id="text-2" class="widget widget_text">
+                  <h5 class="widget--title fl-font-style-regular-two">
+                    О компании
+                  </h5>
+                  <div class="textwidget">
+                    <p>
+                      БЫСТРЫЕ И КАЧЕСТВЕННЫЕ ПЕРЕВОЗКИ АВТОМОБИЛЕЙ НА АВТОВОЗАХ
+                      24/7
+                    </p>
+                  </div>
+                </div>
+                <div id="fl_social_widget-3" class="widget social-widget">
+                  <ul class="social-links">
+                    <li>
+                      <a class="social-link fl-primary-color-hv" href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="social-link fl-primary-color-hv" href="#">
+                        <i class="fa-brands fa-viber"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="social-link fl-primary-color-hv" href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="footer-widget-area footer-widget-area-two col-lg-3 col-md-6"
+              >
+                <div
+                  id="custom_html-3"
+                  class="widget_text widget widget_custom_html"
+                >
+                  <h5 class="widget--title fl-font-style-regular-two">
+                    Наши услуги
+                  </h5>
+                  <div class="textwidget custom-html-widget">
+                    <ul>
+                      <li><a href="#">Аренда автовоза</a></li>
+                      <li><a href="#">Помощь в оформлении документов</a></li>
+                      <li><a href="#">Ещё услуга</a></li>
+                      <li><a href="#">И ещё услуга</a></li>
+                      <li><a href="#">И последняя услуга</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-widget-area col-lg-3 col-md-6">
+                <div
+                  id="custom_html-4"
+                  class="widget_text widget widget_custom_html"
+                >
+                  <h5 class="widget--title fl-font-style-regular-two">
+                    Страницы сайта
+                  </h5>
+                  <div class="textwidget custom-html-widget">
+                    <ul>
+                      <li><a href="index.html">Главная</a></li>
+                      <li><a href="about.html">О компании</a></li>
+                      <li><a href="directions.html">Направления</a></li>
+                      <li><a href="contancts.html">Контакты</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-widget-area col-lg-3 col-md-6">
+                <div
+                  id="custom_html-5"
+                  class="widget_text widget widget_custom_html"
+                >
+                  <h5 class="widget--title fl-font-style-regular-two">
+                    Для связи
+                  </h5>
+                  <div class="textwidget custom-html-widget">
+                    <div class="footer-info">
+                      <i class="bestbus-icon-icon3" aria-hidden="true"></i>
+                      <div class="fl-footer-info-container">
+                        <span class="fl-footer-info-top">Номер телефона</span>
+                        <span class="fl-footer-info-bot"
+                          ><a href="tel:+78004441214" class="a-custom"
+                            >8 (800) 444-12-14</a
+                          ></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="custom_html-6"
+                  class="widget_text widget widget_custom_html"
+                >
+                  <div class="textwidget custom-html-widget">
+                    <div class="footer-info">
+                      <i class="bestbus-icon-icon4" aria-hidden="true"></i>
+                      <div class="fl-footer-info-container">
+                        <span class="fl-footer-info-top">Часы работы</span>
+                        <span class="fl-footer-info-bot">10:00 - 20:00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="custom_html-7"
+                  class="widget_text widget widget_custom_html"
+                >
+                  <div class="textwidget custom-html-widget">
+                    <div class="footer-info">
+                      <i class="bestbus-icon-icon18" aria-hidden="true"></i>
+                      <div class="fl-footer-info-container">
+                        <span class="fl-footer-info-top"
+                          >Адрес электронной почты</span
+                        >
+                        <span class="fl-footer-info-bot"
+                          ><a
+                            href="mailto:manager@avtovoz247.ru"
+                            class="a-custom"
+                            >manager@avtovoz247.ru</a
+                          ></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-content-footer">
+          <div class="container">
+            <div class="row">
+              <div class="fl-copyright--inner col-md-6 text-left">
+                © 2020 Автовоз, Все права защищены
+              </div>
+              <div
+                class="fl-copyright--inner fl-copyright--links col-md-6 text-right"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Sidebar Header -->
+      <!-- Search form Full Width start -->
+      <div class="header-search-form open">
+        <div class="search-form-wrapper">
+          <div class="container">
+            <!--Search form Start-->
+
+            <form
+              class="search_global"
+              role="search"
+              method="get"
+              id="searchform-global"
+              action="//bestbus.pro-theme.com"
+            >
+              <fieldset>
+                <div class="row search-form-row">
+                  <input
+                    type="text"
+                    class="searchinput col-5"
+                    value=""
+                    name="s"
+                    id="search-form-global"
+                    placeholder="Search keyword ..."
+                  />
+                  <div class="searchsubmit fl-secondary-bg">
+                    <button
+                      type="submit"
+                      id="searchsubmit-global"
+                      class="fl-font-style-bolt-two default-btn submit-btn"
+                    >
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+            <!--Search form End-->
+          </div>
+        </div>
+      </div>
+      <!-- Search form Full Width end -->
+      <!-- Hamburger menu start -->
+      <!--Sidebar Mobile Menu Start-->
+      <div class="fl-mobile-menu-wrapper">
+        <!--Sidebar Overlay Start-->
+        <div class="fl-sidebar-overlay fl--mobile-menu-icon"></div>
+        <!--Sidebar Overlay End-->
+        <div class="fl-nav-container">
+          <!--Mobile Nav menu Wrapper Start-->
+          <div class="fl--mobile-menu-navigation-wrapper">
+            <div
+              class="fl-close-sidebar-icon fl--mobile-menu-icon closed"
+            ></div>
+            <!--Mobile Nav menu Start-->
+            <nav class="fl--mobile-menu-navigation cf">
+              <ul id="menu-main-menu-one-1" class="fl--mobile-menu">
+                <li class="nav-item menu-item-depth-0 current-menu-item">
+                  <a
+                    href="index.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Главная</a
+                  >
+                </li>
+                <li class="nav-item menu-item-depth-0 has-submenu">
+                  <a
+                    href="text-page.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Услуги</a
+                  >
+                  <div class="sub-nav">
+                    <ul class="menu-depth-1 sub-menu sub-nav-group">
+                      <li class="sub-nav-item menu-item-depth-1">
+                        <a href="#" class="menu-link sub-menu-link"
+                          ><i class="disable"></i>Listing Page</a
+                        >
+                      </li>
+                      <li class="sub-nav-item menu-item-depth-1">
+                        <a href="#" class="menu-link sub-menu-link"
+                          ><i class="disable"></i>Booking Car</a
+                        >
+                      </li>
+                      <li class="sub-nav-item menu-item-depth-1">
+                        <a href="#" class="menu-link sub-menu-link"
+                          ><i class="disable"></i>Single Form</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item menu-item-depth-0">
+                  <a
+                    href="about.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>О компании</a
+                  >
+                </li>
+                <li class="nav-item menu-item-depth-0">
+                  <a
+                    href="directions.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Направления</a
+                  >
+                </li>
+                <li class="nav-item menu-item-depth-0">
+                  <a
+                    href="contancts.html"
+                    class="menu-link main-menu-link item-title"
+                    ><i class="disable"></i>Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!--Mobile Nav menu End-->
+            <!--Mobile Nav menu End-->
+          </div>
+          <!--Mobile Nav menu Wrapper End-->
+        </div>
+      </div>
+      <!--Sidebar Mobile Menu End--><!-- Hamburger menu end -->
+
+      <!-- Login Form -->
+      <!-- Login form start -->
+      <div class="login-form">
+        <div class="login-gap top"></div>
+        <div class="fl-login-form-entry login-in">
+          <div class="fl-login_form">
+            <h3 class="login_form_title">Sign in</h3>
+            <form
+              name="loginform_63368d353e6b5"
+              id="loginform_63368d353e6b5"
+              action="//bestbus.pro-theme.com/wp-login.php"
+              method="post"
+            >
+              <p class="login-username">
+                <input
+                  type="text"
+                  name="log"
+                  id="user_login_63368d353e712"
+                  class="input"
+                  placeholder="Your email"
+                  value=""
+                  size="20"
+                />
+              </p>
+              <p class="login-password">
+                <input
+                  type="password"
+                  name="pwd"
+                  id="user_pass_63368d353e74b"
+                  class="input"
+                  placeholder="Your password"
+                  value=""
+                  size="20"
+                />
+              </p>
+              <p class="login-submit text-center">
+                <button
+                  type="submit"
+                  name="wp-submit"
+                  id="wp-submit_63368d353e7f8"
+                  class="login-in-btn default-btn fl-font-style-bolt-two"
+                >
+                  Sign in
+                </button>
+                <input
+                  type="hidden"
+                  name="redirect_to"
+                  value="https://bestbus.pro-theme.com/"
+                />
+              </p>
+              <p class="remember--lost-password-wrapper">
+                <label class="remember-login-checkbox-label">
+                  <input
+                    name="rememberme"
+                    type="checkbox"
+                    id="rememberme_63368d353e785"
+                    class="remember-login-checkbox"
+                    value="forever"
+                  />
+                  Remember Me</label
+                ><a
+                  href="//bestbus.pro-theme.com/my-account/lost-password/"
+                  class="lost-password-link fl-font-style-medium"
+                  >Forgot password?</a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="login-gap bottom"></div>
+      </div>
+
+      <!-- Login form end -->
+      <!-- Login Form end -->
+    </div>
+    <!-- Main holder End-->
+
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:700%2C400%7COpen+Sans:300%2C600"
+      rel="stylesheet"
+      property="stylesheet"
+      media="all"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/jq-ui-core.min.js"></script>
+    <script src="js/slick.js"></script>
+
+    <script src="js/jelect.js"></script>
+    <script src="dist/isotope.pkgd.min.js"></script>
+    <script src="js/jarallax.js"></script>
+    <script src="js/count-to.js"></script>
+
+    <script src="js/waypoints.js"></script>
+    <script src="js/mega-menu.js"></script>
+
+    <script src="js/TweenMax.js"></script>
+
+    <script src="js/velocity.js"></script>
+    <script src="js/velocity-ui-pack.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+
+    <script src="js/mega-menu-start.js"></script>
+    <script src="js/page-loader.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
+<!--Footer End-->

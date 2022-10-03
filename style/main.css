@@ -191,3 +191,23 @@ h6, .h6 {
 .a-custom.black{
     color: #111;
 }
+
+.breadcrubs-block ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.breadcrubs-block ul li span a{
+    margin-right: 10px;
+    color: gray;
+}
+
+.breadcrubs-block ul li span::after{
+    content: '/';
+    padding-right: 10px;
+}
+
+.breadcrubs-block ul li a{
+    color: #fff;
+}
