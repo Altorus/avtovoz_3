@@ -119,7 +119,7 @@
           <div class="fl-navigation-container cf">
             <!-- Start Logo-->
             <div class="fl--logo-container">
-              <a href="//bestbus.pro-theme.com/">
+              <a href="index.html">
                 <img
                   src="//bestbus.pro-theme.com/wp-content/uploads/2020/02/logo2-1.png"
                   alt="logotype"
@@ -267,7 +267,7 @@
         </div>
         <div class="row">
             <form action="#" method="post" class="custom-form">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-md-4">
                         <div>
                             <label for="from" class="form-label">Откуда</label>
@@ -288,7 +288,273 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                Лид. форма
+              <div class="wrapper form-orders-section">
+                <div class="h2">Форма заявки</div>
+                <div class="h6">
+                  Заполните форму для заказа автовоза
+                </div>
+                <div class="tabs">
+                  <div class="selector"></div>
+                  <li data-tab="1" class="active">
+                    <i class="fa-solid fa-car"></i>Тип
+                    транспорта
+                  </li>
+                  <li data-tab="2">
+                    <i class="fa-solid fa-copyright"></i
+                    >Модель и марка
+                  </li>
+                  <li data-tab="3">
+                    <i class="fa-solid fa-location-dot"></i
+                    >Информация о перевозке
+                  </li>
+                  <li data-tab="4">
+                    <i class="fa-solid fa-credit-card"></i
+                    >Стоимость перевозки
+                  </li>
+                </div>
+                <form
+                  action="#"
+                  method="post"
+                  id="form-order"
+                >
+                  <div class="tab-item select" data-tab="1">
+                    <div class="select-car" id="tab-1">
+                      <label for="sedan">
+                        <input
+                          type="radio"
+                          id="sedan"
+                          name="auto"
+                          value="Седан"
+                          required
+                        />
+                        <img
+                          src="images/cars-select/sedan.png"
+                          alt=""
+                        />Седан</label
+                      >
+
+                      <label for="crossover">
+                        <input
+                          type="radio"
+                          id="crossover"
+                          name="auto"
+                          value="Кроссовер"
+                        /><img
+                          src="images/cars-select/crossover.png"
+                          alt=""
+                        />Кроссовер</label
+                      >
+
+                      <label for="hatchback">
+                        <input
+                          type="radio"
+                          id="hatchback"
+                          name="auto"
+                          value="Хэтчбэк"
+                        /><img
+                          src="images/cars-select/hatchback.png"
+                          alt=""
+                        />Хэтчбэк</label
+                      >
+
+                      <label for="universal">
+                        <input
+                          type="radio"
+                          id="universal"
+                          name="auto"
+                          value="Универсал"
+                        /><img
+                          src="images/cars-select/universal.png"
+                          alt=""
+                        />Универсал</label
+                      >
+
+                      <label for="suv">
+                        <input
+                          type="radio"
+                          id="suv"
+                          name="auto"
+                          value="Внедорожник"
+                        /><img
+                          src="images/cars-select/suv.png"
+                          alt=""
+                        />Внедорожник</label
+                      >
+
+                      <label for="load-truck"
+                        ><input
+                          type="radio"
+                          id="load-truck"
+                          name="auto"
+                          value="Грузовой"
+                        /><img
+                          src="images/cars-select/load-truck.png"
+                          alt=""
+                        />Грузовой</label
+                      >
+
+                      <label for="more">
+                        <input
+                          type="radio"
+                          id="more"
+                          name="auto"
+                          value="Другой"
+                        />
+                        <img
+                          src="images/cars-select/sportcar.png"
+                          alt=""
+                        />
+                        Другой</label
+                      >
+
+                      <span class="edit-btn">Изменить</span>
+                    </div>
+                  </div>
+                  <div class="tab-item" data-tab="2">
+                    <p class="desc-block">
+                      Для более точного расчета стоимости
+                      укажите модель и марку вашего
+                      транспорта. Вы можете пропустить этот
+                      шаг.
+                    </p>
+                    <div class="row mb-3">
+                      <div class="col-md-6">
+                        <input
+                          type="text"
+                          placeholder="Марка автомобиля"
+                          class="form-input brand-car"
+                        />
+                        <span class="desc"
+                          >Например Audi</span
+                        >
+                      </div>
+                      <div class="col-md-6">
+                        <input
+                          type="text"
+                          placeholder="Модель автомобиля"
+                          class="form-input model-car"
+                        />
+                        <span class="desc">Например Q3</span>
+                      </div>
+                    </div>
+                    <div class="row btn-bar">
+                      <div class="col-md-6">
+                        <div class="btn-custom next">
+                          Подтвердить и продолжить
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="btn-custom outline skip">
+                          Пропустить этот шаг
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-item" data-tab="3">
+                    <div class="row mb-3">
+                      <div class="col-md-4">
+                        <input
+                          type="text"
+                          placeholder="Откуда"
+                          class="form-input from"
+                        />
+                        <span class="desc"
+                          >Например Москва</span
+                        >
+                      </div>
+                      <div class="col-md-4">
+                        <input
+                          type="text"
+                          placeholder="Куда"
+                          class="form-input to"
+                        />
+                        <span class="desc"
+                          >Например Самара</span
+                        >
+                      </div>
+                      <div class="col-md-4">
+                        <input
+                          type="text"
+                          placeholder="Выберите дату отправки"
+                          class="form-input"
+                          name="date"
+                          id="datepicker"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="row btn-bar">
+                      <div class="col-md-3">
+                        <div class="btn-custom done-order">
+                          Подтвердить и продолжить
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-item" data-tab="4">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="h6">
+                          Вы хотите перевезти:
+                        </div>
+                        <p class="results" id="result">
+                          Вы не заполнили важные поля
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row section mt-3">
+                      <div class="col-md-12 col-section">
+                        <div class="h6">
+                          Узнайте стоимость прямо сейчас
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-section">
+                        <input
+                          type="text"
+                          placeholder="ФИО"
+                          class="form-input name mb-3"
+                        />
+                      </div>
+                      <div class="col-md-6 col-section">
+                        <input
+                          type="text"
+                          id="phone"
+                          placeholder="Номер телефона"
+                          class="form-input phone"
+                        />
+                      </div>
+                    </div>
+                    <div class="row section mt-3">
+                      <div class="col-md-12 col-section mb-3">
+                        <input
+                          type="checkbox"
+                          name="agreement"
+                          id="agreement"
+                          checked
+                        />
+                        <span class="areement-desc"
+                          >Согласен на обработку персональных
+                          данных</span
+                        >
+                      </div>
+                      <div class="col-md-12 col-section">
+                        <div class="btn-custom ready-order">
+                          Подтвердить и продолжить
+                        </div>
+                      </div>
+                      <div class="col-md-12 col-section">
+                        <p>
+                          * В течение 5 минут с Вами свяжется
+                          наш специалист и проинформирует вас
+                          о стоимости перевозки, а также
+                          ответит на все интересующие Вас
+                          вопросы.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
             <div class="col-6">
                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36cdc69fbc4c6e35fc15ec4105aa1389fccc1fe949eb917d9115e460b653d73c&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
@@ -357,7 +623,7 @@
       <footer class="fl--footer fl-dark-bg">
         <div class="footer__decor"></div>
         <div class="fl-footer-top-contain container fl_footer_border">
-          <a href="//bestbus.pro-theme.com/">
+          <a href="index.html">
             <img
               src="//bestbus.pro-theme.com/wp-content/uploads/2020/02/logo2.png"
               alt="footer_logo"

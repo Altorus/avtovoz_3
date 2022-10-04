@@ -218,13 +218,16 @@ h6, .h6 {
   }
   
   .tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top:50px;
     font-size:15px;
     padding:0px;
     list-style:none;
     background:#fff;
     box-shadow:0px 5px 20px rgba(0,0,0,0.1);
-    display:inline-block;
+    /* display:inline-block; */
     border-radius:50px;
     position:relative;
   }
@@ -240,7 +243,7 @@ h6, .h6 {
   }
 
   #form-order .tab-item.select{
-    max-height: 100vh;
+    max-height: 1000px;
   }
   
   .tabs li{
@@ -263,10 +266,11 @@ h6, .h6 {
   }
   
   .tabs .selector{
-    height:100%;
+    height:40px;
     display:inline-block;
     position:absolute;
-    left:0px;
+    left:50%;
+    transform: translateX(-50%);
     top:0px;
     z-index:1;
     border-radius:50px;
@@ -349,4 +353,9 @@ h6, .h6 {
 
 .form-input{
     margin: 0 !important;
+}
+
+input[type=text].warning-inputs{
+    transition: all .3s ease-in-out;
+    border: 1px solid red;
 }
