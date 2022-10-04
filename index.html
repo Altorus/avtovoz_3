@@ -430,16 +430,58 @@
                                                         <div class="wrapper">
                                                             <div class="h2">Форма заявки</div>
                                                             <div class="h6">Заполните форму для заказа автовоза</div>
-                                                            <nav class="tabs">
+                                                            <div class="tabs">
                                                               <div class="selector"></div>
-                                                              <a href="#" class="active"><i class="fa-solid fa-car"></i>Тип транспорта</a>
-                                                              <a href="#"><i class="fa-solid fa-copyright"></i>Модель и марка</a>
-                                                              <a href="#"><i class="fa-solid fa-location-dot"></i>Информация о перевозке</a>
-                                                              <a href="#"><i class="fa-solid fa-credit-card"></i>Стоимость перевозки</a>
-                                                            </nav>
-                                                            <form action="#" method="post">
-                                                                <div class="tab-item" data-tab="1">
-                                                                    1
+                                                              <li data-tab='1' class="active"><i class="fa-solid fa-car"></i>Тип транспорта</li>
+                                                              <li data-tab='2'><i class="fa-solid fa-copyright"></i>Модель и марка</li>
+                                                              <li data-tab='3'><i class="fa-solid fa-location-dot"></i>Информация о перевозке</li>
+                                                              <li data-tab='4'><i class="fa-solid fa-credit-card"></i>Стоимость перевозки</li>
+                                                            </div>
+                                                            <form action="#" method="post" id="form-order">
+                                                                <div class="tab-item select" data-tab="1">
+                                                                    <div class="select-car" id="tab-1">
+
+                                                                        <label for="sedan">
+                                                                            <input type="radio" id="sedan" name="auto" value="Седан" required>
+                                                                            <img src="images/cars-select/sedan.png" alt="">Седан</label>
+                                    
+                                    
+                                                                        <label for="crossover">
+                                                                            <input type="radio" id="crossover" name="auto" value="Кроссовер"><img
+                                                                                src="images/cars-select/crossover.png"
+                                                                                alt="">Кроссовер</label>
+                                    
+                                    
+                                                                        <label for="hatchback">
+                                                                            <input type="radio" id="hatchback" name="auto" value="Хэтчбэк"><img
+                                                                                src="images/cars-select/hatchback.png" alt="">Хэтчбэк</label>
+                                    
+                                    
+                                                                        <label for="universal">
+                                                                            <input type="radio" id="universal" name="auto" value="Универсал"><img
+                                                                                src="images/cars-select/universal.png"
+                                                                                alt="">Универсал</label>
+                                    
+                                    
+                                                                        <label for="suv">
+                                                                            <input type="radio" id="suv" name="auto" value="Внедорожник"><img
+                                                                                src="images/cars-select/suv.png" alt="">Внедорожник</label>
+                                    
+                                    
+                                                                        <label for="load-truck"><input type="radio" id="load-truck"
+                                                                                                       name="auto" value="Грузовой"><img
+                                                                                src="images/cars-select/load-truck.png"
+                                                                                alt="">Грузовой</label>
+                                    
+                                    
+                                                                        <label for="more">
+                                                                            <input type="radio" id="more" name="auto" value="Другой">
+                                                                            <img src="images/cars-select/sportcar.png" alt="">
+                                                                            Другой</label>
+                                    
+                                                                        <span class="edit-btn">Изменить</span>
+                                    
+                                                                    </div>
                                                                 </div>
                                                                 <div class="tab-item" data-tab="2">
                                                                     2

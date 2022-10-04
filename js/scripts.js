@@ -17,7 +17,7 @@ jQuery.noConflict()(function($) {
     // 
 
     var tabs = $('.tabs');
-    var selector = $('.tabs').find('a').length;
+    var selector = $('.tabs').find('li').length;
     //var selector = $(".tabs").find(".selector");
     var activeItem = tabs.find('.active');
     var activeWidth = activeItem.innerWidth();
@@ -26,9 +26,9 @@ jQuery.noConflict()(function($) {
       "width": activeWidth + "px"
     });
     
-    $(".tabs").on("click","a",function(e){
+    $(".tabs").on("click","li",function(e){
       e.preventDefault();
-      $('.tabs a').removeClass("active");
+      $('.tabs li').removeClass("active");
       $(this).addClass('active');
       var activeWidth = $(this).innerWidth();
       var itemPos = $(this).position();
@@ -36,6 +36,44 @@ jQuery.noConflict()(function($) {
         "left":itemPos.left + "px", 
         "width": activeWidth + "px"
       });
+    });
+
+    $('.tabs li').click(function () {
+        var id = $(this).attr('data-tab'),
+            content = $('#form-order .tab-item[data-tab="' + id + '"]');
+
+        $('#order-form ul li.select').removeClass('select');
+        $(this).addClass('select');
+
+        $('#form-order .tab-item.select').removeClass('select');
+        content.addClass('select');
+        validateInputs()
+    });
+
+    $('input[name="auto"]').on('click', function () {
+        let content = $('.form-order[data-tab="2"]');
+
+        $(".select-car label").addClass("hidden");
+        $($(this).parent()).removeClass("hidden");
+        $(".select-car span").addClass("action");
+        $('#order-form ul li:nth-of-type(1)').addClass('done');
+
+        $('#order-form ul li.active').removeClass('active');
+        $('#order-form ul li[data-tab="2"]').addClass('active');
+
+        $('.select-car').addClass('select');
+        $('.form-order.active').removeClass('active');
+        content.addClass('active');
+        $('#order-form ul li:nth-of-type(1)').removeClass('warning')
+        // scrollBlock()
+    })
+
+    $(".select-car span").click(function () {
+        $(this).toggleClass("action");
+        $('input[name="auto"]').prop('checked', false);
+
+        $(".select-car label").toggleClass("hidden");
+        $('.select-car').removeClass('select')
     });
 
     // 
