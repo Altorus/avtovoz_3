@@ -42,12 +42,11 @@ jQuery.noConflict()(function($) {
         var id = $(this).attr('data-tab'),
             content = $('#form-order .tab-item[data-tab="' + id + '"]');
 
-        $('#order-form ul li.select').removeClass('select');
+        $('#form-order ul li.select').removeClass('select');
         $(this).addClass('select');
 
         $('#form-order .tab-item.select').removeClass('select');
-        content.addClass('select');
-        validateInputs()
+        content.addClass('select'); 
     });
 
     $('input[name="auto"]').on('click', function () {
@@ -56,15 +55,15 @@ jQuery.noConflict()(function($) {
         $(".select-car label").addClass("hidden");
         $($(this).parent()).removeClass("hidden");
         $(".select-car span").addClass("action");
-        $('#order-form ul li:nth-of-type(1)').addClass('done');
+        $('#form-order ul li:nth-of-type(1)').addClass('done');
 
-        $('#order-form ul li.active').removeClass('active');
-        $('#order-form ul li[data-tab="2"]').addClass('active');
+        $('#form-order ul li.active').removeClass('active');
+        $('#form-order ul li[data-tab="2"]').addClass('active');
 
         $('.select-car').addClass('select');
         $('.form-order.active').removeClass('active');
         content.addClass('active');
-        $('#order-form ul li:nth-of-type(1)').removeClass('warning')
+        $('#form-order ul li:nth-of-type(1)').removeClass('warning')
         // scrollBlock()
     })
 
@@ -76,6 +75,10 @@ jQuery.noConflict()(function($) {
         $('.select-car').removeClass('select')
     });
 
+    // calendar
+    $(function () {
+        $("#datepicker").datepicker();
+    });
     // 
 
 

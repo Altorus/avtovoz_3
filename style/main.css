@@ -342,3 +342,11 @@ h6, .h6 {
 .edit-btn.action:hover {
     color: #28a745;
 }
+
+.select-car label.hidden{
+    display: none;
+}
+
+.form-input{
+    margin: 0 !important;
+}

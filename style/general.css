@@ -407,7 +407,7 @@ select {
     margin-bottom: 30px;
     padding: 8px 15px;
     font-size: 12px;
-    border: 0px solid;
+    border: 1px solid;
     letter-spacing: .02em; }
 input[type=text]:hover, input[type=text]:active, input[type=text]:focus,
 input[type=email]:hover,
