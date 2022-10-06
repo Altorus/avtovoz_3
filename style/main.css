@@ -161,12 +161,12 @@ h6, .h6 {
     background-color: #d3d126 !important;
 }
 
-.vc_section[data-vc-full-width]>.vc_row{
+.vc_section[data-vc-full-width] > .vc_row {
     display: flex;
     justify-content: center;
 }
 
-.btn-custom{
+.btn-custom {
     padding: 20px;
     background-color: #DBD700;
     font-weight: 700;
@@ -174,118 +174,118 @@ h6, .h6 {
     transition: all .3s ease-in-out;
 }
 
-.btn-custom:hover{
+.btn-custom:hover {
     background-color: #fff;
     color: #141404;
 }
 
-.a-custom{
+.a-custom {
     color: #fff;
     transition: all .3s ease-in-out;
 }
 
-.a-custom:hover{
+.a-custom:hover {
     color: #DBD700;
 }
 
-.a-custom.black{
+.a-custom.black {
     color: #111;
 }
 
-.breadcrubs-block ul{
+.breadcrubs-block ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.breadcrubs-block ul li span a{
+.breadcrubs-block ul li span a {
     margin-right: 10px;
     color: gray;
 }
 
-.breadcrubs-block ul li span::after{
+.breadcrubs-block ul li span::after {
     content: '/';
     padding-right: 10px;
 }
 
-.breadcrubs-block ul li a{
+.breadcrubs-block ul li a {
     color: #fff;
 }
 
-.wrapper{
-    text-align:center;
-    margin:50px auto;
-  }
-  
-  .tabs{
+.wrapper {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.tabs {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:50px;
-    font-size:15px;
-    padding:0px;
-    list-style:none;
-    background:#fff;
-    box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 0px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
     /* display:inline-block; */
-    border-radius:50px;
-    position:relative;
-  }
+    border-radius: 50px;
+    position: relative;
+}
 
-  #form-order{
+#form-order {
     margin-top: 18px;
-  }
+}
 
-  #form-order .tab-item{
+#form-order .tab-item {
     overflow: hidden;
     max-height: 0vh;
     transition: all .7s ease-in-out;
-  }
+}
 
-  #form-order .tab-item.select{
+#form-order .tab-item.select {
     max-height: 1000px;
-  }
-  
-  .tabs li{
-    text-decoration:none;
+}
+
+.tabs li {
+    text-decoration: none;
     color: #777;
-    text-transform:uppercase;
-    padding:10px 20px;
-    display:inline-block;
-    position:relative;
-    z-index:1;
-    transition-duration:0.6s;
-  }
-  
-  .tabs li.active{
-    color:#fff;
-  }
-  
-  .tabs li i{
-    margin-right:5px;
-  }
-  
-  .tabs .selector{
-    height:40px;
-    display:inline-block;
-    position:absolute;
-    left:50%;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition-duration: 0.6s;
+}
+
+.tabs li.active {
+    color: #fff;
+}
+
+.tabs li i {
+    margin-right: 5px;
+}
+
+.tabs .selector {
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
     transform: translateX(-50%);
-    top:0px;
-    z-index:1;
-    border-radius:50px;
-    transition-duration:0.6s;
+    top: 0px;
+    z-index: 1;
+    border-radius: 50px;
+    transition-duration: 0.6s;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    
+
     background: #05abe0;
     background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
-    background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
-    background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
-  }
+    background: -webkit-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+    background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05abe0', endColorstr='#8200f4', GradientType=1);
+}
 
 
-  input[type="radio"] {
+input[type="radio"] {
     display: none;
 }
 
@@ -293,7 +293,7 @@ h6, .h6 {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -347,15 +347,36 @@ h6, .h6 {
     color: #005383;
 }
 
-.select-car label.hidden{
+.select-car label.hidden {
     display: none;
 }
 
-.form-input{
+.form-input {
     margin: 0 !important;
 }
 
-input[type=text].warning-inputs{
+input[type=text].warning-inputs {
     transition: all .3s ease-in-out;
     border: 1px solid red;
+}
+
+.prev-rev,
+.next-rev {
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: #005383;
+    cursor: pointer;
+}
+
+.prev-rev{
+    margin-right: 10px;
+}
+
+.arrows-section {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 32px;
+    margin: 0 auto;
 }

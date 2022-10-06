@@ -1629,6 +1629,10 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <div class="arrows-section">
+                                                            <div class="prev-rev"><i class="fa-solid fa-arrow-left"></i></div>
+                                                            <div class="next-rev"><i class="fa-solid fa-arrow-right"></i></div>
+                                                        </div>
                                                         <script>
                                                             jQuery.noConflict()(function ($) {
                                                                 var image_slider = $(
@@ -1653,6 +1657,12 @@
                                                                             },
                                                                         },
                                                                     ],
+                                                                });
+                                                                $('.next-rev').click(()=>{
+                                                                    image_slider.slick('slickNext')
+                                                                });
+                                                                $('.prev-rev').click(() => {
+                                                                    image_slider.slick('slickPrev')
                                                                 });
                                                             });
                                                         </script>
