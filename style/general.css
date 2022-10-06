@@ -7278,7 +7278,7 @@ footer.fl--footer .bottom-content-footer .fl-copyright--links a:last-child:after
     left: 0;
     top: 0;
     width: 450px;
-    background: #fff;
+    background: #005383;
     padding: 45px 10px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -7318,7 +7318,7 @@ footer.fl--footer .bottom-content-footer .fl-copyright--links a:last-child:after
     line-height: 1.1;
     display: block;
     padding: 17px 40px 17px 24px;
-    color: #222222;
+    color: #fff;
     font-size: 11px;
     text-transform: uppercase; }
 .fl--mobile-menu li a .fl-menu-flipper-icon {
@@ -7413,14 +7413,14 @@ body.admin-bar ul.fl-sidebar-social-profiles {
     outline: 0;
     padding: 10px;
     vertical-align: top;
-    top: 15px;
-    right: 5px;
+    top: 125px;
+    right: 25px;
     z-index: 99999;
     cursor: pointer; }
 .fl-close-sidebar-icon:before {
-    font-family: fl-custom-icon-font;
-    content: '\ec30';
-    color: red !important;
+    font: var(--fa-font-solid);
+    content: '\f00d';
+    color: #fff !important;
     position: absolute;
     top: 0;
     width: 100%;
@@ -8916,11 +8916,10 @@ ul.fl-sidebar-social-profiles li a.vimeo:before {
 ==  max-width 1170px
 
 -------------------------------------------------------------------*/
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1280px) {
     .container_wide {
         max-width: 1024px;
         margin: auto; }
-
     .fl-padding {
         height: 90px !important; }
 

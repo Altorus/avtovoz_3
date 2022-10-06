@@ -5,7 +5,6 @@ body {
 }
 
 
-
 .woocommerce-ResetPassword {
     border: 1px solid #ddd;
     padding: 25px;
@@ -313,9 +312,6 @@ html .sidebar:not(.cars-sidebar) .auto-price-info {
 }
 
 
-
-
-
 .extra_service_title_item .extr-right .woocommerce-Price-amount.amount,
 .extra_service_title_item .extr-right .resource,
 .pixad_auto_price_in_hour {
@@ -404,7 +400,7 @@ html .booking-auto-form button.submit {
     padding: 30px;
 }
 
-@media screen and (max-width:1800px) and (min-width:1500px) {
+@media screen and (max-width: 1800px) and (min-width: 1500px) {
 
 
     html .fl-page-heading .fl--page-header .header-title {
@@ -420,7 +416,7 @@ html .booking-auto-form button.submit {
 
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width: 1500px) {
 
 
     html .fl-page-heading .fl--page-header .header-title {
@@ -436,7 +432,7 @@ html .booking-auto-form button.submit {
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
 
     html .fl-page-heading .heading-mask .fl-mask-bg-img {
         display: none;
@@ -444,7 +440,7 @@ html .booking-auto-form button.submit {
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
 
 
     html .tm-main-holder-function footer.fl--footer .fl-footer-top-contain {
@@ -454,11 +450,7 @@ html .booking-auto-form button.submit {
 }
 
 
-
-
-
-
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
 
 
     html .fl-page-heading .fl--page-header .header-title {
@@ -469,9 +461,7 @@ html .booking-auto-form button.submit {
 }
 
 
-
-
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
 
 
     footer.fl--footer .footer__decor {
@@ -497,7 +487,6 @@ html .fl--header .nav-menu li .sub-menu li a:hover {
 }
 
 
-
 html .sidebar:not(.cars-sidebar) .dealer-info .dealer-bottom-info {
     border-bottom: 1px solid #dddddd;
 }
@@ -511,7 +500,6 @@ html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner:before {
 footer .fl_footer_logo {
     max-width: 170px;
 }
-
 
 
 html .sidebar:not(.cars-sidebar) .dealer-info .dealer-top-info .right {
@@ -555,7 +543,6 @@ html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner:before {
 }
 
 
-
 html .vc-auto-search .jelect-current,
 .vc-auto-search div.select {
     color: #7b7d7f;
@@ -565,7 +552,6 @@ html .vc-auto-search .jelect-current,
 .fl-blog-post-pagination.text-left {
     padding-bottom: 100px;
 }
-
 
 
 html .fl-vc-vehicle-search .search_style_two .vc-auto-search .pixad-makes-models-select .jelect-current {
@@ -1057,7 +1043,6 @@ html .fl--hamburger-menu .fl-flipper-icon .fl-front-content span {
 }
 
 
-
 .auto-price-info .car-price .price-detail .after-price-text,
 .slider-grid__price .after-price-text {
     font-size: 14px
@@ -1139,7 +1124,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     right: 0
 }
 
-@media screen and (min-width:1800px) {
+@media screen and (min-width: 1800px) {
 
     html .container_wide,
     html .welcome-container .vc_column-inner {
@@ -1147,20 +1132,15 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 }
 
-@media screen and (min-width:1800px) {
+@media screen and (min-width: 1800px) {
     .vc_section.rent_van_truck_bus_within_your_budget {
         background-position: 110px 0 !important;
         min-height: 750px
     }
 }
 
-@media screen and (max-width:1620px) {
-    .header-support-nav-online {
-        display: none !important
-    }
-}
 
-@media screen and (max-width:1800px) and (min-width:1600px) {
+@media screen and (max-width: 1800px) and (min-width: 1600px) {
 
     .container_wide,
     .welcome-container .vc_column-inner {
@@ -1168,12 +1148,9 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
-
-
 }
 
-@media screen and (max-width:1600px) and (min-width:1300px) {
+@media screen and (max-width: 1600px) and (min-width: 1300px) {
 
     .container_wide,
     .welcome-container .vc_column-inner {
@@ -1183,7 +1160,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 
 }
 
-@media screen and (max-width:1300px) and (min-width:1170px) {
+@media screen and (max-width: 1300px) and (min-width: 1170px) {
 
     .container_wide,
     .welcome-container .vc_column-inner {
@@ -1192,7 +1169,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-@media screen and (max-width:1240px) and (min-width:1140px) {
+@media screen and (max-width: 1240px) and (min-width: 1140px) {
 
     .fl-header--navigation .fl-bottom-header-content .fl-navigation-container {
         padding-left: 0;
@@ -1206,9 +1183,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-
-@media screen and (max-width:1400px) and (min-width:1300px) {
+@media screen and (max-width: 1400px) and (min-width: 1300px) {
 
 
     .img-001 {
@@ -1216,15 +1191,10 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
-
-
 }
 
 
-
-
-@media screen and (max-width:1300px) and (min-width:1200px) {
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
 
 
     .img-001 {
@@ -1240,8 +1210,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-@media screen and (max-width:1200px) and (min-width:900px) {
+@media screen and (max-width: 1200px) and (min-width: 900px) {
 
     html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
         margin-top: 0;
@@ -1258,21 +1227,10 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
-
 }
 
 
-
-
-
-
-
-
-@media screen and (max-width:1200px) {
-
-
-
+@media screen and (max-width: 1200px) {
 
 
     html .car-details .auto-slider .slides {
@@ -1290,7 +1248,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
     html .fl-counter-wrapper.style_two .fl-counter-wrapper-inner:before {
         display: none !important;
     }
@@ -1303,11 +1260,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-@media screen and (max-width:680px) {
-
-
-
+@media screen and (max-width: 680px) {
 
 
     html .fl-page-padding,
@@ -1330,7 +1283,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     html blockquote {
         margin-left: 0;
     }
-
 
 
     html .fl-page-heading .fl--page-header .fl-pre--title-wrapper {
@@ -1369,7 +1321,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-@media screen and (max-width:580px) {
+@media screen and (max-width: 580px) {
 
     html body .comment-title-content .font-text {
         font-size: 21px;
@@ -1378,11 +1330,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-@media screen and (max-width:480px) {
-
-
-
+@media screen and (max-width: 480px) {
 
 
     html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
@@ -1394,7 +1342,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
         top: 61px;
         left: 166px;
     }
-
 
 
     html .fl-icon-box .fl-icon-box-style-two {
@@ -1427,7 +1374,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
     html .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .fl-autos-equip {
         column-count: 1;
     }
@@ -1435,7 +1381,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-@media screen and (max-width:380px) {
+@media screen and (max-width: 380px) {
 
 
     html .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment-author-name a {
@@ -1449,7 +1395,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
         margin-right: 0 !important;
         width: 100% !important;
     }
-
 
 
     .sidebar:not(.cars-sidebar) .fl-popular-posts-widget .fl-widget-popular-posts-wrapper .fl--last-post .fl-last-post-info {
@@ -1468,7 +1413,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
     html .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a:before,
     html .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a:after {
         display: none !important;
@@ -1477,8 +1421,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-@media screen and (max-width:1140px) and (min-width:800px) {
+@media screen and (max-width: 1140px) and (min-width: 800px) {
 
 
     .fl-header--navigation .fl-bottom-header-content .fl-navigation-container {
@@ -1493,9 +1436,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-
-@media screen and (max-width:870px) {
+@media screen and (max-width: 870px) {
 
 
     html .fl-blog-post-div {
@@ -1513,15 +1454,12 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
 
 
     html .footer-widget-area {
         padding-bottom: 10%;
     }
-
-
 
 
     html .testimonial-slider .slick-list .fl-testimonial-slide .bottom-content {
@@ -1602,7 +1540,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 }
 
-@media screen and (max-width:1170px) and (min-width:800px) {
+@media screen and (max-width: 1170px) and (min-width: 800px) {
     html .fl-page-heading .heading-mask .fl-mask-bg-img {
         width: 17%
     }
@@ -1613,20 +1551,10 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
-    .header-support-nav-online {
-        display: none !important
-    }
-}
-
-@media screen and (max-width:1000px) and (min-width:800px) {
-    .header-support-nav-online {
-        display: none !important
-    }
 }
 
 
-@media screen and (max-width:1027px) and (min-width:990px) {
+@media screen and (max-width: 1027px) and (min-width: 990px) {
 
 
     .fl-header--navigation .fl-bottom-header-content .fl-navigation-container {
@@ -1636,8 +1564,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-@media screen and (max-width:1200px) and (min-width:900px) {
+@media screen and (max-width: 1200px) and (min-width: 900px) {
 
 
     html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .post-title a {
@@ -1678,7 +1605,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
     .fl-recent_auto-isotope .fl-autos-grid-one .slider-grid__inner .tmpl-gray-footer .top-info-content .fl-top-content-contain .tmpl-slider-grid__name {
         margin-bottom: 15px !important
     }
@@ -1700,9 +1626,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 }
 
 
-
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
 
 
     .fl-copyright--inner.fl-copyright--links.col-md-6.text-right {
@@ -1719,7 +1643,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
 
     html .fl-blog-post-div .post-style-default .fl-post--item {
         margin-bottom: 60px;
@@ -1769,9 +1693,7 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 }
 
-@media screen and (max-width:800px) {
-
-
+@media screen and (max-width: 800px) {
 
 
     html .jelect-current {
@@ -1821,7 +1743,6 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
         margin-bottom: 20px;
         margin-top: 0
     }
-
 
 
     html .fl-single-post-header .post-holder--info .post-info .left-post-top-content .post-info {
@@ -1890,13 +1811,15 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
 
     }
 
+
+}
+
+@media screen and (max-width: 580px) {
+
+
     .header-support-nav-online {
         display: none !important
     }
-}
-
-@media screen and (max-width:580px) {
-
 
     html .pix-dynamic-content #pixad-listing.grid .fl-autos-grid-one {
         margin-right: 0px;
@@ -1954,17 +1877,13 @@ html .fl-contact-info-wrapper-vc .fl-bg-dots {
     }
 
 
-
-
     html footer.fl--footer .fl-footer-top-contain .fl--subscribe-contain .fl--subscribe .fl--subscribe-input .mc4wp-form-fields .fl-subscr-inputs .fl-subscr-input {
         width: 230px;
     }
 
 }
 
-@media screen and (max-width:480px) {
-
-
+@media screen and (max-width: 480px) {
 
 
     html .fl-home-page-posts-content-vc .home-page-post-container .blog-post .fl-blog-post-bottom-content i.fa-circle {
@@ -2314,7 +2233,6 @@ html .fl-login_form form button {
 }
 
 
-
 html .fl-login_form .login_form_title {
     font-size: 27px;
     color: #fff;
@@ -2322,7 +2240,6 @@ html .fl-login_form .login_form_title {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-
 
 
 html .login-in-btn:after {
@@ -2348,7 +2265,6 @@ html .woocommerce form .form-row label {
     font-weight: 600;
     padding-bottom: 10px;
 }
-
 
 
 .woocommerce-ResetPassword.lost_reset_password .woocommerce-Button.button {
@@ -2381,8 +2297,6 @@ html .fl-action-content-wrapper-vc.style_two .vc-fl-action-content .fl_right-con
 html .fl-action-content-wrapper-vc .inner-content .fl_right-content .action-content {
     padding-bottom: 25px;
 }
-
-
 
 
 html .fl-icon-box .fl-icon-box-style-two {
@@ -2434,7 +2348,6 @@ html .fl-body-types .fl-body-types .fl-auto-body-item {
     margin-left: -1px;
     margin-bottom: -1px
 }
-
 
 
 html .fl-action-content-wrapper-vc .inner-content .fl_right-content .action-title {
@@ -3356,8 +3269,6 @@ html .wp-block-latest-posts.is-grid,
 }
 
 
-
-
 .tm-holder-function blockquote {
     padding: 95px 50px 50px !important
 }
@@ -3814,10 +3725,10 @@ html ol.wp-block-latest-comments .wp-block-latest-comments__comment-meta {
     text-align: center
 }
 
-.test{
+.test {
     width: 40vw;
 }
 
-.fa-solid.white{
+.fa-solid.white {
     color: #fff;
 }

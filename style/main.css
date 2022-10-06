@@ -302,8 +302,8 @@ h6, .h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #28a745;
-    border-radius: 10px;
+    border: 1px solid #005383;
+    border-radius: 50px;
     padding: 20px;
     transition: all 0.3s ease-in-out;
 }
@@ -318,7 +318,7 @@ h6, .h6 {
 
 .select-car label:hover {
     cursor: pointer;
-    background-color: #28a745;
+    background-color: #005383;
     color: #fff;
 }
 
@@ -344,7 +344,7 @@ h6, .h6 {
 }
 
 .edit-btn.action:hover {
-    color: #28a745;
+    color: #005383;
 }
 
 .select-car label.hidden{
