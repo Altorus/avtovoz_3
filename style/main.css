@@ -380,3 +380,10 @@ input[type=text].warning-inputs {
     padding: 10px 0 10px 32px;
     margin: 0 auto;
 }
+
+tr:hover{
+    background-color: #005383;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
